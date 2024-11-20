@@ -30,7 +30,7 @@ export default function RootLayout({
 					content="Physiva, physiotherapy, rehabilitation, wellness, expert care, mobility restoration"
 				/>
 			</Head>
-			<body className="font-body bg-white text-gray antialiased">
+			<body className="font-body bg-white text-body antialiased">
 				<Navbar />
 				<main className="relative flex justify-center items-center flex-col mx-auto">
 					{children}

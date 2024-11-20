@@ -1,6 +1,6 @@
 import HeroPage from '@/pages/hero.page';
 
-const page = () => {
+const page: React.FC = () => {
 	return (
 		<>
 			<HeroPage />

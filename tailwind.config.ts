@@ -9,14 +9,17 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				aqua: '#def7fe',
-				blue: '#1f90ff',
-				pink: '#fac6dd',
-				orange: '#faa526',
-				black: '#050326',
-				gray: '#363551',
-				'snow-white': '#f5f8fd',
-				'crystal-blue': '#d9ebfd',
+				body: '#212529',
+				heading: '#2d465e',
+				blue: '#0d83fd',
+				light: '#f3f9ff',
+				'light-blue': '#b6d9fe',
+			},
+
+			boxShadow: {
+				xl: 'inset 0 0 0 4px #ba9cff',
+				'2xl': '0 0 0 8px rgba(255,255,255,0.5)',
+				'3xl': '0 0 0 20px rgba(255,255,255,0.8)',
 			},
 		},
 
