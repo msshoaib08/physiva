@@ -10,7 +10,7 @@ const PrimaryButton: React.FC<PrimaryButtonProps> = ({ btnText }) => {
 	return (
 		<button
 			onClick={handleClick}
-			className="inline-flex w-fit mx-auto lg:mx-0 bg-blue hover:bg-blue/70 text-white font-medium py-2 px-6 rounded-lg font-heading transition duration-300 ease-in-out"
+			className="inline-flex w-fit mx-auto lg:mx-0 bg-blue hover:bg-blue/70 text-white font-medium py-3 px-6 rounded-2xl font-heading transition duration-300 ease-in-out"
 		>
 			{btnText}
 		</button>

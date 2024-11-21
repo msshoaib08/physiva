@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
 		<>
 			<header
 				className={`w-full h-[70px] flex justify-center items-center fixed inset-0 z-50 transition-all duration-300 ${
-					scrolled ? 'bg-light-blue' : 'transparent'
+					scrolled ? 'bg-light/90' : 'transparent'
 				}`}
 			>
 				<div className="max-w-7xl px-5 md:px-10 w-full flex justify-between items-center">
@@ -72,7 +72,7 @@ const Navbar: React.FC = () => {
 
 					{/* Mobile Navigation Menu */}
 					<nav
-						className={`lg:hidden fixed top-[70px] right-0 w-full h-screen bg-light-blue transition-transform duration-300 ease-in-out ${
+						className={`lg:hidden fixed top-[70px] right-0 w-full h-screen bg-light transition-transform duration-300 ease-in-out ${
 							navActive ? 'translate-x-0' : 'translate-x-full'
 						} flex items-start flex-col px-10 py-24 space-y-6 text-xl`}
 					>
