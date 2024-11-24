@@ -8,7 +8,7 @@ const CallToAction: React.FC = () => {
 					<h2 className="capitalize text-[32px] md:text-[40px] lg:text-[55px] font-bold font-heading text-heading mb-4">
 						Let&apos;s get in touch!
 					</h2>
-					<p className="mb-8 text-center md:text-start lg:max-w-[50%] font-semibold">
+					<p className="mb-8 text-center md:text-start lg:max-w-[50%] font-medium">
 						Don&apos;t let pain hold you back. Book your first session with top
 						physiotherapists and take the first step toward a healthier, happier
 						you right from the comfort of home.

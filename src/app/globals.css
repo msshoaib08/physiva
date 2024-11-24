@@ -48,13 +48,21 @@
 		background: url('/cta-bg-img.jpg') top / cover no-repeat;
 	}
 
-	.custom-bg {
-		background: rgb(13, 131, 253);
+	.radial-gradient-bg {
+		background: rgb(168, 211, 255);
 		background: radial-gradient(
 			circle,
-			rgba(13, 131, 253, 1) 0%,
+			rgba(168, 211, 255, 1) 0%,
 			rgba(182, 217, 254, 1) 35%,
+			rgba(216, 235, 255, 1) 71%,
 			rgba(243, 249, 255, 1) 100%
 		);
+	}
+
+	.gradient-text {
+		background: linear-gradient(90deg, #0d83fd, #fdfdfd);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		font-weight: bold;
 	}
 }
