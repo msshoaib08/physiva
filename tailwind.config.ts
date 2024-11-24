@@ -17,7 +17,7 @@ export default {
 			},
 
 			boxShadow: {
-				xl: 'inset 0 0 0 4px #ba9cff',
+				xl: 'inset 0 0 0 4px rgba(255,255,255,0.5)',
 				'2xl': '0 0 0 8px rgba(255,255,255,0.5)',
 				'3xl': '0 0 0 20px rgba(255,255,255,0.8)',
 				'4xl': '0 0 0 8px rgba(173, 203, 255,0.2)',

@@ -7,9 +7,9 @@ const ProcessPage: React.FC = () => {
 		window.location.href = 'tel:+918887776668';
 	};
 	return (
-		<section className="pt-0 lg:pt-20">
+		<section className="radial-gradient-bg">
 			<div className="max-w-7xl px-5 md:px-10 w-full">
-				<div className="lg:w-[70%] lg:mx-auto flex flex-col gap-5">
+				<div className="w-full lg:w-[70%] lg:mx-auto flex flex-col gap-5">
 					<h2 className="font-heading text-3xl font-semibold">
 						Your Simple Path to{' '}
 						<span className="text-blue">Complete Recovery</span>
@@ -25,7 +25,7 @@ const ProcessPage: React.FC = () => {
 						<img
 							src="/process-img1.jpg"
 							alt="physiotherapy image"
-							className="w-full h-auto rounded-3xl shadow-4xl"
+							className="w-full h-auto rounded-3xl shadow-2xl"
 						/>
 						<div className="grid grid-cols-2 gap-10">
 							<div className="border-2 border-blue/20 p-6 rounded-3xl">
@@ -46,7 +46,7 @@ const ProcessPage: React.FC = () => {
 						<img
 							src="/process-img2.jpg"
 							alt="physiotherapy image"
-							className="w-full h-auto rounded-3xl shadow-4xl"
+							className="w-full h-auto rounded-3xl shadow-2xl"
 						/>
 					</div>
 					<div className="mt-10 lg:mt-0 flex flex-col gap-10">
@@ -66,7 +66,7 @@ const ProcessPage: React.FC = () => {
 								{step === '01' && (
 									<button
 										onClick={handleClick}
-										className="mt-5 w-fit py-3 px-5 flex items-center gap-2 bg-heading/10 rounded-full"
+										className="mt-5 w-fit py-3 px-5 flex items-center gap-2 bg-heading/10 rounded-full transition-all duration-300 ease-in-out hover:shadow-xl"
 									>
 										<img
 											src="/calling-icon.png"

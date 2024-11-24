@@ -1,6 +1,5 @@
 export const NAV_ITEMS = [
 	{ navItem: 'About', url: '#about' },
-	{ navItem: 'Features', url: '#features' },
 	{ navItem: 'Schedule', url: '#schedule' },
 	{ navItem: 'Review', url: '#testimonial' },
 	{ navItem: 'Contact', url: '#contact' },
@@ -42,44 +41,32 @@ export const CORE_FEATURES = [
 	},
 ];
 
-// export const TREAT_CONDITIONS = [
-// 	{
-// 		title: 'Muscle and Joint Pain',
-// 		description:
-// 			'Get effective relief from sprains, strains, fractures, tendonitis, and other musculoskeletal issues.',
-// 		image: '/treatment-condition-icon1.png',
-// 	},
-// 	{
-// 		title: 'Post-Surgical Rehabilitation',
-// 		description:
-// 			'Regain strength and mobility after surgery with tailored recovery programs designed for optimal results.',
-// 		image: '/treatment-condition-icon1.png',
-// 	},
-// 	{
-// 		title: 'Back and Neck Pain',
-// 		description:
-// 			'Address discomfort caused by poor posture, slipped discs, muscle tension, and other spinal conditions.',
-// 		image: '/treatment-condition-icon1.png',
-// 	},
-// 	{
-// 		title: 'Sports Injuries',
-// 		description:
-// 			'Recover quickly and safely from ligament injuries, muscle strains, or joint dislocations with expert care.',
-// 		image: '/treatment-condition-icon1.png',
-// 	},
-// 	{
-// 		title: 'Neurological Conditions',
-// 		description:
-// 			'Specialized therapy for stroke recovery, Parkinson’s disease, multiple sclerosis, and spinal injuries.',
-// 		image: '/treatment-condition-icon1.png',
-// 	},
-// 	{
-// 		title: 'Geriatric Care',
-// 		description:
-// 			'Improve mobility, balance, and overall well-being to maintain independence and a better quality of life for seniors.',
-// 		image: '/treatment-condition-icon1.png',
-// 	},
-// ];
+export const TREATMENT = [
+	{
+		title: 'Muscle and Joint Pain',
+		image: 'url(/treatment-img1.jpg)',
+	},
+	{
+		title: 'Post-Surgical Rehabilitation',
+		image: 'url(/treatment-img2.jpg)',
+	},
+	{
+		title: 'Back and Neck Pain',
+		image: 'url(/treatment-img3.jpg)',
+	},
+	{
+		title: 'Sports Injuries',
+		image: 'url(/treatment-img4.jpg)',
+	},
+	{
+		title: 'Neurological Conditions',
+		image: 'url(/treatment-img5.jpg)',
+	},
+	{
+		title: 'Geriatric Care',
+		image: 'url(/treatment-img6.jpg)',
+	},
+];
 
 export const PROCESS = [
 	{

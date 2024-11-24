@@ -29,7 +29,7 @@ const HeroPage: React.FC = () => {
 							alt="hero Image"
 						/>
 
-						<div className="glassmorphism absolute -top-8 right-16 lg:top-1/2 lg:-left-10 flex flex-col py-3 px-4 w-fit h-fit">
+						<div className="glassmorphism absolute -top-8 right-10 lg:top-1/2 lg:-left-10 flex flex-col py-3 px-4 w-fit h-fit">
 							<div className="flex items-center w-full gap-2">
 								<FcGoogle size={40} />
 

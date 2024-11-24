@@ -50,7 +50,7 @@
 			rgba(182, 217, 254, 1) 35%,
 			rgba(243, 249, 255, 1) 100%
 		); */
-		background: url('/cta-bg-img.jpg') top / cover no-repeat;
+		background: url('/cta-bg.jpg') top / cover no-repeat;
 	}
 
 	.radial-gradient-bg {
