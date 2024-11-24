@@ -1,5 +1,7 @@
 import PrimaryButton from '@/components/primary-btn.component';
 import StatisticsCard from '@/components/stats.component';
+import { FcGoogle } from 'react-icons/fc';
+import { IoStar, IoStarHalf } from 'react-icons/io5';
 
 const HeroPage: React.FC = () => {
 	return (
@@ -26,6 +28,24 @@ const HeroPage: React.FC = () => {
 							className="max-w-full h-auto rounded-2xl shadow-2xl"
 							alt="hero Image"
 						/>
+
+						<div className="glassmorphism absolute -top-8 right-16 lg:top-1/2 lg:-left-10 flex flex-col py-3 px-4 w-fit h-fit">
+							<div className="flex items-center w-full gap-2">
+								<FcGoogle size={40} />
+
+								<div className="flex flex-col gap-1">
+									<div className="flex items-center">
+										{[...Array(4)].map((_, index) => (
+											<IoStar key={index} />
+										))}
+										<IoStarHalf />
+									</div>
+									<span className="text-sm font-semibold text-body/60">
+										4.5/5 rating
+									</span>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 

@@ -42,44 +42,44 @@ export const CORE_FEATURES = [
 	},
 ];
 
-export const TREAT_CONDITIONS = [
-	{
-		title: 'Muscle and Joint Pain',
-		description:
-			'Get effective relief from sprains, strains, fractures, tendonitis, and other musculoskeletal issues.',
-		image: '/treatment-condition-icon1.png',
-	},
-	{
-		title: 'Post-Surgical Rehabilitation',
-		description:
-			'Regain strength and mobility after surgery with tailored recovery programs designed for optimal results.',
-		image: '/treatment-condition-icon1.png',
-	},
-	{
-		title: 'Back and Neck Pain',
-		description:
-			'Address discomfort caused by poor posture, slipped discs, muscle tension, and other spinal conditions.',
-		image: '/treatment-condition-icon1.png',
-	},
-	{
-		title: 'Sports Injuries',
-		description:
-			'Recover quickly and safely from ligament injuries, muscle strains, or joint dislocations with expert care.',
-		image: '/treatment-condition-icon1.png',
-	},
-	{
-		title: 'Neurological Conditions',
-		description:
-			'Specialized therapy for stroke recovery, Parkinson’s disease, multiple sclerosis, and spinal injuries.',
-		image: '/treatment-condition-icon1.png',
-	},
-	{
-		title: 'Geriatric Care',
-		description:
-			'Improve mobility, balance, and overall well-being to maintain independence and a better quality of life for seniors.',
-		image: '/treatment-condition-icon1.png',
-	},
-];
+// export const TREAT_CONDITIONS = [
+// 	{
+// 		title: 'Muscle and Joint Pain',
+// 		description:
+// 			'Get effective relief from sprains, strains, fractures, tendonitis, and other musculoskeletal issues.',
+// 		image: '/treatment-condition-icon1.png',
+// 	},
+// 	{
+// 		title: 'Post-Surgical Rehabilitation',
+// 		description:
+// 			'Regain strength and mobility after surgery with tailored recovery programs designed for optimal results.',
+// 		image: '/treatment-condition-icon1.png',
+// 	},
+// 	{
+// 		title: 'Back and Neck Pain',
+// 		description:
+// 			'Address discomfort caused by poor posture, slipped discs, muscle tension, and other spinal conditions.',
+// 		image: '/treatment-condition-icon1.png',
+// 	},
+// 	{
+// 		title: 'Sports Injuries',
+// 		description:
+// 			'Recover quickly and safely from ligament injuries, muscle strains, or joint dislocations with expert care.',
+// 		image: '/treatment-condition-icon1.png',
+// 	},
+// 	{
+// 		title: 'Neurological Conditions',
+// 		description:
+// 			'Specialized therapy for stroke recovery, Parkinson’s disease, multiple sclerosis, and spinal injuries.',
+// 		image: '/treatment-condition-icon1.png',
+// 	},
+// 	{
+// 		title: 'Geriatric Care',
+// 		description:
+// 			'Improve mobility, balance, and overall well-being to maintain independence and a better quality of life for seniors.',
+// 		image: '/treatment-condition-icon1.png',
+// 	},
+// ];
 
 export const PROCESS = [
 	{

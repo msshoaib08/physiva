@@ -8,9 +8,8 @@ const GraphicPage: React.FC = () => {
 						Loved Ones.
 					</h2>
 					<p className="w-full lg:max-w-[30%] font-semibold">
-						Caring for yourself is just as important as caring for your loved
-						ones. Take time to nurture both your physical and mental well-being
-						to live a balanced, healthy life.
+						Caring for yourself is as important as caring for others. Prioritize
+						your physical and mental well-being for a balanced life.
 					</p>
 				</div>
 
@@ -18,7 +17,7 @@ const GraphicPage: React.FC = () => {
 					<img
 						src="/graphic-img.jpg"
 						alt="physiotherapy image"
-						className="rounded-3xl shadow-3xl"
+						className="rounded-2xl lg:rounded-3xl shadow-3xl w-full h-auto"
 					/>
 
 					<div className="w-fit hidden lg:block">
@@ -43,7 +42,7 @@ const GraphicPage: React.FC = () => {
 							<span className="text-sm font-heading ">Hi Kadir!!</span>
 						</div>
 						<div className="glassmorphism absolute py-3 px-6 -right-12 top-1/2 lg:max-xl:top-[65%]">
-							<span className="text-sm font-heading">I need your help...</span>
+							<span className="text-sm font-heading">How may I help you?</span>
 						</div>
 					</div>
 				</div>

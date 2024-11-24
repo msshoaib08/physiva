@@ -7,7 +7,7 @@ const ProcessPage: React.FC = () => {
 		window.location.href = 'tel:+918887776668';
 	};
 	return (
-		<section>
+		<section className="pt-0 lg:pt-20">
 			<div className="max-w-7xl px-5 md:px-10 w-full">
 				<div className="lg:w-[70%] lg:mx-auto flex flex-col gap-5">
 					<h2 className="font-heading text-3xl font-semibold">
@@ -25,7 +25,7 @@ const ProcessPage: React.FC = () => {
 						<img
 							src="/process-img1.jpg"
 							alt="physiotherapy image"
-							className="w-full h-auto rounded-3xl shadow-2xl"
+							className="w-full h-auto rounded-3xl shadow-4xl"
 						/>
 						<div className="grid grid-cols-2 gap-10">
 							<div className="border-2 border-blue/20 p-6 rounded-3xl">
@@ -46,7 +46,7 @@ const ProcessPage: React.FC = () => {
 						<img
 							src="/process-img2.jpg"
 							alt="physiotherapy image"
-							className="w-full h-auto rounded-3xl shadow-2xl"
+							className="w-full h-auto rounded-3xl shadow-4xl"
 						/>
 					</div>
 					<div className="mt-10 lg:mt-0 flex flex-col gap-10">
