@@ -20,7 +20,7 @@ const TreatmentPage: React.FC = () => {
 					{TREATMENT.map(({ title, image }, idx) => (
 						<div
 							key={idx}
-							className="relative w-full h-40 rounded-2xl flex justify-center items-center"
+							className="relative w-full h-44 rounded-2xl flex justify-center items-center"
 							style={{
 								backgroundImage: image,
 								backgroundSize: 'cover',

@@ -4,6 +4,7 @@ import { NAV_ITEMS } from '@/constant';
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
+import PrimaryButton from './primary-btn.component';
 
 const Navbar: React.FC = () => {
 	const [navActive, setNavActive] = useState<boolean>(false);
@@ -58,7 +59,7 @@ const Navbar: React.FC = () => {
 					</div>
 
 					{/* Desktop Navigation Menu */}
-					<nav className="hidden lg:flex md:items-center md:space-x-6">
+					<nav className="hidden lg:flex lg:items-center lg:space-x-6">
 						{NAV_ITEMS.map(({ navItem, url }) => (
 							<Link
 								key={navItem}
@@ -68,6 +69,8 @@ const Navbar: React.FC = () => {
 								{navItem}
 							</Link>
 						))}
+
+						<PrimaryButton btnText="Call Now" />
 					</nav>
 
 					{/* Mobile Navigation Menu */}
@@ -85,6 +88,7 @@ const Navbar: React.FC = () => {
 								{navItem}
 							</Link>
 						))}
+						<PrimaryButton btnText="Call Now" />
 					</nav>
 				</div>
 			</header>

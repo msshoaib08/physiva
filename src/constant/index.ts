@@ -2,21 +2,15 @@ export const NAV_ITEMS = [
 	{ navItem: 'About', url: '#about' },
 	{ navItem: 'Schedule', url: '#schedule' },
 	{ navItem: 'Review', url: '#testimonial' },
-	{ navItem: 'Contact', url: '#contact' },
+	// { navItem: 'Contact', url: '#contact' },
 ];
 
-// export interface SocialMediaLink {
-// 	name: string;
-// 	icon: JSX.Element;
-// 	url: string;
-// }
-
-// export const SOCIALMEDIA_LINKS: SocialMediaLink[] = [
-// 	{ name: 'Twitter', icon: <FaTwitter />, url: 'https://twitter.com' },
-// 	{ name: 'Instagram', icon: <FaInstagram />, url: 'https://instagram.com' },
-// 	{ name: 'WhatsApp', icon: <FaWhatsapp />, url: 'https://whatsapp.com' },
-// 	{ name: 'LinkedIn', icon: <FaLinkedin />, url: 'https://linkedin.com' },
-// ];
+export const SOCIALMEDIA_LINKS = [
+	{ name: 'twitter', image: '/twitter.svg', url: 'https://twitter.com' },
+	{ name: 'instagram', image: '/instagram.svg', url: 'https://instagram.com' },
+	{ name: 'whatsApp', image: '/whatsapp.svg', url: 'https://whatsapp.com' },
+	{ name: 'linkedIn', image: '/linkedin.svg', url: 'https://linkedin.com' },
+];
 
 export const CORE_FEATURES = [
 	{
