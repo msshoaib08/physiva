@@ -9,6 +9,11 @@
 		@apply m-0 p-0 duration-100 !scroll-smooth;
 	}
 
+	::selection {
+		background: #b6d9fe;
+		color: #2d465e;
+	}
+
 	.hero {
 		background: linear-gradient(
 			135deg,
@@ -34,7 +39,7 @@
 	}
 
 	section {
-		@apply relative h-full w-full py-16 flex flex-col items-center justify-center text-center overflow-hidden;
+		@apply relative h-full w-full py-20 flex flex-col items-center justify-center text-center overflow-hidden;
 	}
 
 	.cta-bg {
@@ -64,5 +69,14 @@
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		font-weight: bold;
+	}
+
+	.glassmorphism {
+		background: rgba(255, 255, 255, 0.25);
+		box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+		backdrop-filter: blur(4px);
+		-webkit-backdrop-filter: blur(4px);
+		border-radius: 10px;
+		border: 1px solid rgba(255, 255, 255, 0.18);
 	}
 }
