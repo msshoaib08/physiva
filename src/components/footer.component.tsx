@@ -55,8 +55,8 @@ const Footer: React.FC = () => {
 					<div className="flex flex-col text-start mt-14 md:mt-14 lg:mt-0">
 						<h4 className="text-xl font-medium font-heading">Contact</h4>
 						<p className="mt-2 font-medium">
-							Xreality Solutions Private Limited 386 Sane Guruji Premises,
-							Prabhadevi, Mumbai 400025
+							Number 2, upper floor, beside Silver enclave, Shil Phata, Thane,
+							Maharashtra, 400612
 						</p>
 
 						<span className="mt-4 text-lg font-medium font-heading select-none">

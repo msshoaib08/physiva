@@ -1,7 +1,7 @@
 export const NAV_ITEMS = [
 	{ navItem: 'About', url: '#about' },
 	{ navItem: 'Schedule', url: '#schedule' },
-	{ navItem: 'Review', url: '#testimonial' },
+	{ navItem: 'For Physiotherapist', url: '#for-physiotherapist' },
 	// { navItem: 'Contact', url: '#contact' },
 ];
 
