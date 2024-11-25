@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Head from 'next/head';
 import Navbar from '@/components/navbar.component';
+import Footer from '@/components/footer.component';
 
 export const metadata: Metadata = {
 	title: 'Physiva - Heal, Restore, Thrive',
@@ -35,6 +36,7 @@ export default function RootLayout({
 				<main className="relative flex justify-center items-center flex-col mx-auto">
 					{children}
 				</main>
+				<Footer />
 			</body>
 		</html>
 	);

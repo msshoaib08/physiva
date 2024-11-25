@@ -41,7 +41,7 @@ const HeroPage: React.FC = () => {
 										<IoStarHalf />
 									</div>
 									<span className="text-sm font-semibold text-body/60">
-										4.5/5 rating
+										4.8/5 rating
 									</span>
 								</div>
 							</div>

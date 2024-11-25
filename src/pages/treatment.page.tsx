@@ -1,6 +1,12 @@
+'use client';
+
 import { TREATMENT } from '@/constant';
 
 const TreatmentPage: React.FC = () => {
+	const handleClick = () => {
+		window.location.href = 'tel:+918887776668';
+	};
+
 	return (
 		<section>
 			<div className="max-w-7xl px-5 md:px-10 w-full">
@@ -27,8 +33,21 @@ const TreatmentPage: React.FC = () => {
 								backgroundPosition: 'center',
 							}}
 						>
-							<div className="glassmorphism w-1/2 absolute top-0 right-0 h-full rounded-2xl rounded-s-none shadow-none flex justify-center items-center">
+							<div className="glassmorphism w-1/2 absolute top-0 right-0 h-full rounded-2xl rounded-s-none shadow-none flex flex-col justify-center items-center">
 								<span className="px-4 font-semibold">{title}</span>
+								{idx === TREATMENT.length - 1 && (
+									<button
+										onClick={handleClick}
+										className="mt-5 w-fit py-3 px-5 flex items-center gap-2 bg-heading/10 rounded-full transition-all duration-300 ease-in-out hover:shadow-xl"
+									>
+										<img
+											src="/calling-icon.png"
+											alt="phone icon"
+											className="w-6 h-6"
+										/>
+										<span className="font-heading font-medium">Call Now</span>
+									</button>
+								)}
 							</div>
 						</div>
 					))}

@@ -1,8 +1,7 @@
 export const NAV_ITEMS = [
-	{ navItem: 'About', url: '#about' },
+	{ navItem: 'About', url: '/about' },
 	{ navItem: 'Schedule', url: '#schedule' },
 	{ navItem: 'For Physiotherapist', url: '#for-physiotherapist' },
-	// { navItem: 'Contact', url: '#contact' },
 ];
 
 export const SOCIALMEDIA_LINKS = [
@@ -48,17 +47,18 @@ export const TREATMENT = [
 		title: 'Back and Neck Pain',
 		image: 'url(/treatment-img3.jpg)',
 	},
-	{
-		title: 'Sports Injuries',
-		image: 'url(/treatment-img4.jpg)',
-	},
+
 	{
 		title: 'Neurological Conditions',
 		image: 'url(/treatment-img5.jpg)',
 	},
 	{
-		title: 'Geriatric Care',
+		title: 'Geriatric Care ',
 		image: 'url(/treatment-img6.jpg)',
+	},
+	{
+		title: 'And Many More ++',
+		image: 'url(/treatment-img4.jpg)',
 	},
 ];
 

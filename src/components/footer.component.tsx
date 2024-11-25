@@ -16,9 +16,8 @@ const Footer: React.FC = () => {
 							className="text-start"
 						/>
 						<p className="">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Voluptatum nobis quidem repudiandae, dignissimos officiis ex dolor
-							beatae eum hic ipsa!
+							Physiva brings expert physiotherapy to your doorstep, offering
+							personalized care to help you regain strength and mobility.
 						</p>
 						<div className="flex items-center gap-4">
 							{SOCIALMEDIA_LINKS.map(({ name, image, url }) => (
@@ -55,7 +54,7 @@ const Footer: React.FC = () => {
 					<div className="flex flex-col text-start mt-14 md:mt-14 lg:mt-0">
 						<h4 className="text-xl font-medium font-heading">Contact</h4>
 						<p className="mt-2 font-medium">
-							Number 2, upper floor, beside Silver enclave, Shil Phata, Thane,
+							02, Upper Floor, beside Silver Enclave, Shil Phata, Thane,
 							Maharashtra, 400612
 						</p>
 

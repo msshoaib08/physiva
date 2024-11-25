@@ -4,7 +4,6 @@ import HeroPage from '@/pages/hero.page';
 import GraphicPage from '@/pages/graphic.page';
 import TreatmentPage from '@/pages/treatment.page';
 import ContactPage from '@/pages/contact.page';
-import Footer from '@/components/footer.component';
 
 const page: React.FC = () => {
 	return (
@@ -15,7 +14,6 @@ const page: React.FC = () => {
 			<TreatmentPage />
 			<GraphicPage />
 			<ContactPage />
-			<Footer />
 		</>
 	);
 };
