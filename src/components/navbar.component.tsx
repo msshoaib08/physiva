@@ -84,6 +84,7 @@ const Navbar: React.FC = () => {
 								key={url}
 								href={url}
 								className="font-medium font-heading text-gray"
+								onClick={() => setNavActive(false)}
 							>
 								{navItem}
 							</Link>

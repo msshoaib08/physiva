@@ -1,7 +1,7 @@
 export const NAV_ITEMS = [
 	{ navItem: 'About', url: '/about' },
-	{ navItem: 'Schedule', url: '#schedule' },
-	{ navItem: 'For Physiotherapist', url: '#for-physiotherapist' },
+	{ navItem: 'Schedule', url: '/#schedule' },
+	{ navItem: 'For Physiotherapist', url: '/#for-physiotherapist' },
 ];
 
 export const SOCIALMEDIA_LINKS = [
