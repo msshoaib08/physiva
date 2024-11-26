@@ -4,6 +4,7 @@ import HeroPage from '@/pages/hero.page';
 import GraphicPage from '@/pages/graphic.page';
 import TreatmentPage from '@/pages/treatment.page';
 import ContactPage from '@/pages/contact.page';
+import TestimonialPage from '@/pages/testimonial.page';
 
 const page: React.FC = () => {
 	return (
@@ -13,6 +14,7 @@ const page: React.FC = () => {
 			<CallToAction />
 			<TreatmentPage />
 			<GraphicPage />
+			<TestimonialPage />
 			<ContactPage />
 		</>
 	);

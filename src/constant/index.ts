@@ -88,3 +88,45 @@ export const SOCIALMEDIA_LINKS = [
 	{ name: 'whatsApp', image: '/whatsapp.svg', url: 'https://whatsapp.com' },
 	{ name: 'linkedIn', image: '/linkedin.svg', url: 'https://linkedin.com' },
 ];
+
+export const TESTIMONIALS = [
+	{
+		feedback:
+			'Physiva is the most affordable, convenient, and expert care provider.It is convenient, expert care at home or online, making your recovery journey smooth.',
+		img: '/treatment-img5.jpg',
+		name: 'Sakshi Chauhan',
+	},
+	{
+		feedback:
+			'Physiva is the most affordable, convenient, and expert care provider.It is convenient, expert care at home or online, making your recovery journey smooth.',
+		img: '/treatment-img5.jpg',
+		name: 'Shivam Dubey',
+	},
+	{
+		feedback:
+			'Physiva is the most affordable, convenient, and expert care provider.It is convenient, expert care at home or online, making your recovery journey smooth.',
+		img: '/treatment-img5.jpg',
+		name: 'Nikhat Patil',
+	},
+	{
+		feedback:
+			'Physiva is the most affordable, convenient, and expert care provider.It is convenient, expert care at home or online, making your recovery journey smooth.',
+		img: '/treatment-img5.jpg',
+		name: 'Qadeer Ahmad',
+	},
+	{
+		feedback:
+			'Physiva is the most affordable, convenient, and expert care provider.It is convenient, expert care at home or online, making your recovery journey smooth.',
+		img: '/treatment-img5.jpg',
+		name: 'Sayyada Khan',
+	},
+];
+
+export const DOCTOTORS_TEAM = [
+	{ img: '/treatment-img1.jpg', name: 'Dr. Samrudhi' },
+	{ img: '/treatment-img2.jpg', name: 'Dr. Palak' },
+	{ img: '/treatment-img3.jpg', name: 'Dr. Harshita' },
+	{ img: '/treatment-img4.jpg', name: 'Dr. Maryam' },
+	{ img: '/treatment-img5.jpg', name: 'Dr. Adil' },
+	{ img: '/treatment-img6.jpg', name: 'Dr. Shweta' },
+];

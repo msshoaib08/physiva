@@ -116,4 +116,9 @@
 		border-radius: 10px;
 		border: 1px solid rgba(255, 255, 255, 0.18);
 	}
+
+	.swiper-horizontal > .swiper-pagination-bullets,
+	.swiper-pagination-bullets.swiper-pagination-horizontal {
+		margin-top: 100px;
+	}
 }

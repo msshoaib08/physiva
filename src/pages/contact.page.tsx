@@ -1,4 +1,4 @@
-import InfiniteCarousel from '@/components/infinite-carousel.component';
+import TeamsCarousel from '@/components/team-carousel.component';
 import PrimaryButton from '@/components/primary-btn.component';
 
 const ContactPage = () => {
@@ -8,9 +8,9 @@ const ContactPage = () => {
 			className={`bg-[url('/cta-bg2.jpg')] bg-cover bg-center`}
 		>
 			<div className="max-w-7xl px-5 md:px-10 w-full">
-				<InfiniteCarousel />
+				<TeamsCarousel />
 
-				<div className="w-full lg:max-w-[70%] lg:mx-auto flex flex-col justify-center items-center gap-5">
+				<div className="mt-16 w-full lg:max-w-[70%] lg:mx-auto flex flex-col justify-center items-center gap-5">
 					<h2 className="font-heading text-3xl text-center font-semibold capitalize">
 						Are You a Physiotherapist?{' '}
 						<span className="text-blue">Join Us! </span>
