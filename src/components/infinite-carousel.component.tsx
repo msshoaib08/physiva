@@ -22,7 +22,7 @@ const InfiniteCarousel = () => {
 
 	const [duration, setDuration] = useState(FAST_DURATION);
 
-	let [ref, { width }] = useMeasure();
+	const [ref, { width }] = useMeasure();
 
 	const xTranslation = useMotionValue(0);
 
@@ -31,7 +31,7 @@ const InfiniteCarousel = () => {
 
 	useEffect(() => {
 		let controls;
-		let finalPosition = -width / 2 - 8;
+		const finalPosition = -width / 2 - 8;
 
 		if (mustFinish) {
 			controls = animate(xTranslation, [xTranslation.get(), finalPosition], {
