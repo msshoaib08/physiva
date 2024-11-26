@@ -4,13 +4,6 @@ export const NAV_ITEMS = [
 	{ navItem: 'For Physiotherapist', url: '/#for-physiotherapist' },
 ];
 
-export const SOCIALMEDIA_LINKS = [
-	{ name: 'twitter', image: '/twitter.svg', url: 'https://twitter.com' },
-	{ name: 'instagram', image: '/instagram.svg', url: 'https://instagram.com' },
-	{ name: 'whatsApp', image: '/whatsapp.svg', url: 'https://whatsapp.com' },
-	{ name: 'linkedIn', image: '/linkedin.svg', url: 'https://linkedin.com' },
-];
-
 export const CORE_FEATURES = [
 	{
 		title: "Consult India's best doctor",
@@ -87,4 +80,11 @@ export const PROCESS = [
 		description:
 			'Continue your therapy with regular follow-up sessions to ensure consistent improvement and long-term results.',
 	},
+];
+
+export const SOCIALMEDIA_LINKS = [
+	{ name: 'twitter', image: '/twitter.svg', url: 'https://twitter.com' },
+	{ name: 'instagram', image: '/instagram.svg', url: 'https://instagram.com' },
+	{ name: 'whatsApp', image: '/whatsapp.svg', url: 'https://whatsapp.com' },
+	{ name: 'linkedIn', image: '/linkedin.svg', url: 'https://linkedin.com' },
 ];
