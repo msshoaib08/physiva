@@ -1,6 +1,6 @@
 export const NAV_ITEMS = [
 	{ navItem: 'About', url: '/about' },
-	{ navItem: 'Schedule', url: '/#schedule' },
+	{ navItem: 'Schedule', url: '#schedule' },
 	{ navItem: 'For Physiotherapist', url: '/#for-physiotherapist' },
 ];
 
@@ -92,33 +92,33 @@ export const SOCIALMEDIA_LINKS = [
 export const TESTIMONIALS = [
 	{
 		feedback:
-			'Physiva is the most affordable, convenient, and expert care provider.It is convenient, expert care at home or online, making your recovery journey smooth.',
+			'Physiva helped me recover from back pain. The treatment was effective, and the physiotherapist was professional. Highly recommend their services.',
 		img: '/treatment-img5.jpg',
-		name: 'Sakshi Chauhan',
+		name: 'Sneha Gupta',
 	},
 	{
 		feedback:
-			'Physiva is the most affordable, convenient, and expert care provider.It is convenient, expert care at home or online, making your recovery journey smooth.',
-		img: '/treatment-img5.jpg',
-		name: 'Shivam Dubey',
-	},
-	{
-		feedback:
-			'Physiva is the most affordable, convenient, and expert care provider.It is convenient, expert care at home or online, making your recovery journey smooth.',
-		img: '/treatment-img5.jpg',
-		name: 'Nikhat Patil',
-	},
-	{
-		feedback:
-			'Physiva is the most affordable, convenient, and expert care provider.It is convenient, expert care at home or online, making your recovery journey smooth.',
+			'Thanks to Physiva, my knee pain is gone! The at-home treatment was convenient, and the therapist was knowledgeable and friendly.',
 		img: '/treatment-img5.jpg',
 		name: 'Qadeer Ahmad',
 	},
 	{
 		feedback:
-			'Physiva is the most affordable, convenient, and expert care provider.It is convenient, expert care at home or online, making your recovery journey smooth.',
+			"Physiva's team gave me personalized care that made a huge difference in my recovery. I can finally get back to my daily routine.",
+		img: '/treatment-img5.jpg',
+		name: 'Nikhat Patil',
+	},
+	{
+		feedback:
+			'Excellent service! The physiotherapist was skilled, and the home sessions made my shoulder pain much more manageable. Truly a great experience.',
 		img: '/treatment-img5.jpg',
 		name: 'Sayyada Khan',
+	},
+	{
+		feedback:
+			'After my surgery, Physiva’s rehabilitation program helped me regain mobility quickly. Their approach is gentle but effective. I’m extremely satisfied!',
+		img: '/treatment-img5.jpg',
+		name: 'Vikram Singh',
 	},
 ];
 
