@@ -57,9 +57,9 @@ const AboutPage = () => {
 						expert care and personalized physiotherapy solutions. Our dedicated
 						team of experienced professionals is committed to helping you regain
 						strength, improve mobility, and enhance your overall well-being.
-						Whether it’s managing pain, recovering from surgery, or addressing
-						chronic conditions, we provide customized treatments tailored to
-						your unique needs. With convenient at-home sessions and
+						Whether it&apos;s managing pain, recovering from surgery, or
+						addressing chronic conditions, we provide customized treatments
+						tailored to your unique needs. With convenient at-home sessions and
 						state-of-the-art techniques, we make it easier for you to achieve
 						your recovery goals. Trust Physiva to guide you every step of the
 						way, ensuring a seamless and effective rehabilitation process. Your
@@ -68,8 +68,10 @@ const AboutPage = () => {
 				</div>
 
 				<div className="py-16">
-					<TeamsCarousel />
 					<CallToAction />
+					<div className="mt-16">
+						<TeamsCarousel />
+					</div>
 				</div>
 			</div>
 		</section>

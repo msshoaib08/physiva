@@ -36,6 +36,7 @@ export default function RootLayout({
 				<main className="relative flex justify-center items-center flex-col mx-auto">
 					{children}
 				</main>
+
 				<Footer />
 			</body>
 		</html>

@@ -32,14 +32,17 @@ const ProcessPage: React.FC = () => {
 								<h4 className="text-4xl font-heading font-bold text-heading">
 									325
 								</h4>
-								<p className="text-sm font-semibold">Doctors and Specialists</p>
+								<p className="text-sm font-semibold pt-2">
+									Doctors and specialists <br />
+									available
+								</p>
 							</div>
 							<div className="p-6 rounded-3xl bg-blue">
 								<h4 className="text-4xl font-heading font-bold text-light">
 									20k+
 								</h4>
-								<p className="text-sm font-semibold text-light">
-									Patient in case
+								<p className="text-sm font-semibold text-light pt-2">
+									Success stories and <br /> counting
 								</p>
 							</div>
 						</div>

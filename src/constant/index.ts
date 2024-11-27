@@ -93,40 +93,45 @@ export const TESTIMONIALS = [
 	{
 		feedback:
 			'Physiva helped me recover from back pain. The treatment was effective, and the physiotherapist was professional. Highly recommend their services.',
-		img: '/treatment-img5.jpg',
-		name: 'Sneha Gupta',
+		img: '/testimonial-img1.jpeg',
+		name: 'Sayyada Khan',
+		treatment: 'Knee Pain',
 	},
 	{
 		feedback:
 			'Thanks to Physiva, my knee pain is gone! The at-home treatment was convenient, and the therapist was knowledgeable and friendly.',
-		img: '/treatment-img5.jpg',
+		img: '/testimonial-img2.jpeg',
 		name: 'Qadeer Ahmad',
+		treatment: 'Stroke Rehab',
 	},
 	{
 		feedback:
 			"Physiva's team gave me personalized care that made a huge difference in my recovery. I can finally get back to my daily routine.",
-		img: '/treatment-img5.jpg',
-		name: 'Nikhat Patil',
+		img: '/testimonial-img3.jpeg',
+		name: 'Vikram Singh',
+		treatment: 'Lower Back Pain',
 	},
 	{
 		feedback:
 			'Excellent service! The physiotherapist was skilled, and the home sessions made my shoulder pain much more manageable. Truly a great experience.',
-		img: '/treatment-img5.jpg',
-		name: 'Sayyada Khan',
+		img: '/testimonial-img4.jpeg',
+		name: 'Nikhat Patil',
+		treatment: 'Shoulder Pain Rehab',
 	},
 	{
 		feedback:
 			'After my surgery, Physiva’s rehabilitation program helped me regain mobility quickly. Their approach is gentle but effective. I’m extremely satisfied!',
-		img: '/treatment-img5.jpg',
-		name: 'Vikram Singh',
+		img: '/testimonial-img5.jpeg',
+		name: 'Sneha Gupta',
+		treatment: 'Stroke Rehab',
 	},
 ];
 
 export const DOCTOTORS_TEAM = [
-	{ img: '/treatment-img1.jpg', name: 'Dr. Samrudhi' },
-	{ img: '/treatment-img2.jpg', name: 'Dr. Palak' },
-	{ img: '/treatment-img3.jpg', name: 'Dr. Harshita' },
-	{ img: '/treatment-img4.jpg', name: 'Dr. Maryam' },
+	{ img: '/doctor-img1.jpeg', name: 'Dr. Samrudhi' },
+	{ img: '/doctor-img2.jpeg', name: 'Dr. Palak' },
+	{ img: '/doctor-img3.jpeg', name: 'Dr. Harshita' },
+	{ img: '/doctor-img4.jpeg', name: 'Dr. Maryam' },
 	{ img: '/treatment-img5.jpg', name: 'Dr. Adil' },
-	{ img: '/treatment-img6.jpg', name: 'Dr. Shweta' },
+	{ img: '/doctor-img5.jpeg', name: 'Dr. Shweta' },
 ];

@@ -37,7 +37,7 @@ const TestimonialPage = () => {
 						modules={[Autoplay, Pagination, Navigation]}
 						className="mySwiper w-full"
 					>
-						{TESTIMONIALS.map(({ feedback, img, name }, idx) => (
+						{TESTIMONIALS.map(({ feedback, img, name, treatment }, idx) => (
 							<SwiperSlide key={idx} className="mb-16">
 								<div className="flex flex-col">
 									<Image
@@ -60,9 +60,14 @@ const TestimonialPage = () => {
 											className="w-12 h-12 object-cover rounded-full"
 											alt={`${name.split(' ')[0]}'s profile image`}
 										/>
-										<span className="font-heading font-medium text-lg">
-											{name}
-										</span>
+										<div className="flex items-start flex-col">
+											<span className="font-heading font-medium text-lg">
+												{name}
+											</span>
+											<span className="text-sm text-heading/70">
+												{treatment}
+											</span>
+										</div>
 									</div>
 								</div>
 							</SwiperSlide>

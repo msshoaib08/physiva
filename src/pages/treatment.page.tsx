@@ -1,5 +1,6 @@
 'use client';
 
+import CallToAction from '@/components/cta.component';
 import { TREATMENT } from '@/constant';
 
 const TreatmentPage: React.FC = () => {
@@ -10,7 +11,9 @@ const TreatmentPage: React.FC = () => {
 	return (
 		<section>
 			<div className="max-w-7xl px-5 md:px-10 w-full">
-				<div className="w-full lg:max-w-[70%] lg:mx-auto flex flex-col justify-between items-center gap-5">
+				<CallToAction />
+
+				<div className="w-full lg:max-w-[70%] lg:mx-auto flex flex-col justify-between items-center gap-5 mt-16">
 					<h2 className="font-heading text-3xl text-center font-semibold capitalize">
 						Specialized Care for Every{' '}
 						<span className="text-blue"> Health Condition </span>

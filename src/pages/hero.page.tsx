@@ -1,9 +1,12 @@
+'use client';
+
 import PrimaryButton from '@/components/primary-btn.component';
+import SecondaryButton from '@/components/secondary-btn.component';
 import StatisticsCard from '@/components/stats.component';
 import { FcGoogle } from 'react-icons/fc';
 import { IoStar, IoStarHalf } from 'react-icons/io5';
 
-const HeroPage: React.FC = () => {
+const HeroPage = () => {
 	return (
 		<section className="hero relative pt-36 min-h-screen">
 			<div className="max-w-7xl px-5 md:px-10 w-full">
@@ -19,7 +22,10 @@ const HeroPage: React.FC = () => {
 							and proven results—join thousands who trust Physiva for a
 							pain-free, healthier life.
 						</p>
-						<PrimaryButton btnText="Book an appointment" />
+						<div className="flex items-center justify-center lg:justify-start gap-4">
+							<PrimaryButton btnText="Book an appointment" />
+							<SecondaryButton btnText="Chat with us" />
+						</div>
 					</div>
 
 					<div className="my-8 lg:mt-0 relative text-center">
