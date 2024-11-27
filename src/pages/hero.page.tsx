@@ -22,9 +22,9 @@ const HeroPage = () => {
 							and proven results—join thousands who trust Physiva for a
 							pain-free, healthier life.
 						</p>
-						<div className="flex items-center justify-center lg:justify-start gap-4">
+						<div className="flex items-center justify-center flex-col md:flex-row lg:justify-start gap-4">
 							<PrimaryButton btnText="Book an appointment" />
-							<SecondaryButton btnText="Chat with us" />
+							<SecondaryButton btnText="Chat on WhatsApp" />
 						</div>
 					</div>
 
