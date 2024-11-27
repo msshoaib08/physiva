@@ -135,7 +135,7 @@ export const TESTIMONIALS = [
 ];
 
 export const DOCTOTORS_TEAM = [
-	{ img: '/doctor-img1.jpeg', name: 'Dr. Samrudhi' },
+	{ img: '/doctor-img-1.jpeg', name: 'Dr. Samrudhi' },
 	{ img: '/doctor-img2.jpeg', name: 'Dr. Palak' },
 	{ img: '/doctor-img3.jpeg', name: 'Dr. Harshita' },
 	{ img: '/doctor-img4.jpeg', name: 'Dr. Maryam' },
