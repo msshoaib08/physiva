@@ -3,6 +3,7 @@ import './globals.css';
 import Head from 'next/head';
 import Navbar from '@/components/navbar.component';
 import Footer from '@/components/footer.component';
+import FixedCTAButtons from '@/components/fixed-cta-btn.component';
 
 export const metadata: Metadata = {
 	title: 'Physiva - Heal, Restore, Thrive',
@@ -38,6 +39,9 @@ export default function RootLayout({
 				</main>
 
 				<Footer />
+
+				{/* Fixed CTA Buttons */}
+				<FixedCTAButtons />
 			</body>
 		</html>
 	);
