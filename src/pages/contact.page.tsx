@@ -1,7 +1,28 @@
+'use client';
+
+import Form from '@/components/form.component';
+import ModalContent from '@/components/modal-content.component';
+import Modal from '@/components/modal.component';
 import TeamsCarousel from '@/components/team-carousel.component';
-import PrimaryButton from '@/components/primary-btn.component';
+import { useState } from 'react';
 
 const ContactPage = () => {
+	const [showModal, setShowModal] = useState(false);
+	const [showForm, setshowForm] = useState(false);
+
+	const handleShowModal = () => {
+		setShowModal(true);
+	};
+
+	const handleCloseModal = () => {
+		setShowModal(false);
+		setshowForm(false);
+	};
+
+	const handleShowForm = () => {
+		setshowForm(true);
+	};
+
 	return (
 		<section
 			id="for-physiotherapist"
@@ -12,7 +33,7 @@ const ContactPage = () => {
 
 				<div className="mt-16 w-full lg:max-w-[70%] lg:mx-auto flex flex-col justify-center items-center gap-5">
 					<h2 className="font-heading text-3xl text-center font-semibold capitalize">
-						Are You a Physiotherapist?{' '}
+						Are You a Physiotherapist? <br />
 						<span className="text-blue">Join Us! </span>
 					</h2>
 					<p>
@@ -21,7 +42,25 @@ const ContactPage = () => {
 						their careers with Physiva.
 					</p>
 
-					<PrimaryButton btnText="Take the Next Step" />
+					<button
+						onClick={handleShowModal}
+						className="inline-flex justify-center items-center min-w-[220px] bg-blue hover:bg-blue/70 text-white font-medium py-3 px-6 rounded-2xl font-heading transition duration-300 ease-in-out cursor-pointer"
+					>
+						Take the Next Step
+					</button>
+
+					{showModal && (
+						<Modal>
+							{showForm ? (
+								<Form />
+							) : (
+								<ModalContent
+									onGetStarted={handleShowForm}
+									onClose={handleCloseModal}
+								/>
+							)}
+						</Modal>
+					)}
 				</div>
 			</div>
 		</section>

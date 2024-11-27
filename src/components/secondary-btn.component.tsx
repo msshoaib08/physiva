@@ -15,7 +15,7 @@ const SecondaryButton: React.FC<SecondaryBtnProps> = ({ btnText }) => {
 	return (
 		<button
 			onClick={handleClick}
-			className="inline-flex justify-center items-center gap-2 min-w-[220px] bg-heading/10 hover:shadow-2xl text-heading font-medium py-3 px-6 rounded-2xl font-heading transition duration-300 ease-in-out cursor-pointer"
+			className="inline-flex justify-center items-center gap-2 min-w-[260px] bg-heading/10 hover:shadow-2xl text-heading font-medium py-3 px-6 rounded-2xl font-heading transition duration-300 ease-in-out cursor-pointer"
 		>
 			<FaWhatsapp size={24} />
 
