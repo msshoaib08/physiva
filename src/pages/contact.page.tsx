@@ -1,6 +1,5 @@
 'use client';
 
-import Form from '@/components/form.component';
 import ModalContent from '@/components/modal-content.component';
 import Modal from '@/components/modal.component';
 import TeamsCarousel from '@/components/team-carousel.component';
@@ -8,7 +7,6 @@ import { useState } from 'react';
 
 const ContactPage = () => {
 	const [showModal, setShowModal] = useState(false);
-	const [showForm, setshowForm] = useState(false);
 
 	const handleShowModal = () => {
 		setShowModal(true);
@@ -16,11 +14,6 @@ const ContactPage = () => {
 
 	const handleCloseModal = () => {
 		setShowModal(false);
-		setshowForm(false);
-	};
-
-	const handleShowForm = () => {
-		setshowForm(true);
 	};
 
 	return (
@@ -51,14 +44,7 @@ const ContactPage = () => {
 
 					{showModal && (
 						<Modal>
-							{showForm ? (
-								<Form />
-							) : (
-								<ModalContent
-									onGetStarted={handleShowForm}
-									onClose={handleCloseModal}
-								/>
-							)}
+							<ModalContent onClose={handleCloseModal} />
 						</Modal>
 					)}
 				</div>

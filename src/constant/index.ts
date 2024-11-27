@@ -30,23 +30,30 @@ export const CORE_FEATURES = [
 export const TREATMENT = [
 	{
 		title: 'Muscle and Joint Pain',
+		description: 'Relieve pain and improve mobility for muscles and joints.',
 		image: 'url(/treatment-img1.jpg)',
 	},
 	{
 		title: 'Post-Surgical Rehabilitation',
+		description:
+			'Recover strength and function after surgery with expert care.',
 		image: 'url(/treatment-img2.jpg)',
 	},
 	{
 		title: 'Back and Neck Pain',
+		description:
+			'Ease discomfort and regain flexibility in your back and neck.',
 		image: 'url(/treatment-img3.jpg)',
 	},
 
 	{
 		title: 'Neurological Conditions',
+		description: 'Enhance mobility and coordination for neurological recovery.',
 		image: 'url(/treatment-img5.jpg)',
 	},
 	{
 		title: 'Geriatric Care ',
+		description: 'Support active aging with personalized physiotherapy care.',
 		image: 'url(/treatment-img6.jpg)',
 	},
 	{
@@ -132,6 +139,7 @@ export const DOCTOTORS_TEAM = [
 	{ img: '/doctor-img2.jpeg', name: 'Dr. Palak' },
 	{ img: '/doctor-img3.jpeg', name: 'Dr. Harshita' },
 	{ img: '/doctor-img4.jpeg', name: 'Dr. Maryam' },
-	{ img: '/treatment-img5.jpg', name: 'Dr. Adil' },
-	{ img: '/doctor-img5.jpeg', name: 'Dr. Shweta' },
+	{ img: '/doctor-img5.jpeg', name: 'Dr. Patrick' },
+	{ img: '/doctor-img6.jpeg', name: 'Dr. Luqmaan' },
+	{ img: '/doctor-img7.jpeg', name: 'Dr. Shweta' },
 ];

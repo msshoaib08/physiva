@@ -30,7 +30,7 @@ const TeamsCarousel = () => {
 								alt={`${name} treatment`}
 								width={200}
 								height={300}
-								className="min-w-[200px] h-[200px] object-cover rounded-2xl"
+								className="min-w-[200px] h-[200px] object-cover object-top rounded-2xl"
 							/>
 
 							<div className="flex justify-center items-center">

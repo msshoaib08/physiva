@@ -2,6 +2,7 @@ interface FormButtonProps {
 	classname: string;
 	btnText: string;
 	onClick: () => void;
+	disabled?: boolean;
 }
 
 const FormButton: React.FC<FormButtonProps> = ({

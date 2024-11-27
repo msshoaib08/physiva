@@ -26,7 +26,7 @@ const TreatmentPage: React.FC = () => {
 				</div>
 
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
-					{TREATMENT.map(({ title, image }, idx) => (
+					{TREATMENT.map(({ title, description, image }, idx) => (
 						<div
 							key={idx}
 							className="relative w-full h-44 rounded-2xl flex justify-center items-center"
@@ -36,8 +36,9 @@ const TreatmentPage: React.FC = () => {
 								backgroundPosition: 'center',
 							}}
 						>
-							<div className="glassmorphism w-1/2 absolute top-0 right-0 h-full rounded-2xl rounded-s-none shadow-none flex flex-col justify-center items-center">
-								<span className="px-4 font-semibold">{title}</span>
+							<div className="glassmorphism w-full absolute top-0 right-0 h-full rounded-2xl rounded-s-none shadow-none flex flex-col justify-center items-center">
+								<span className="px-4 font-bold text-lg">{title}</span>
+								<span className="mt-2 px-3 font-medium">{description}</span>
 								{idx === TREATMENT.length - 1 && (
 									<button
 										onClick={handleClick}

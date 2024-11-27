@@ -16,15 +16,15 @@ const FixedCTAButtons = () => {
 		<div className="fixed bottom-5 right-6 z-50 flex flex-col gap-8">
 			<button
 				onClick={handleCall}
-				className="flex justify-center items-center p-3 bg-light/80 rounded-full shadow-2xl"
+				className="flex justify-center items-center p-3 bg-black/80 rounded-full shadow-2xl"
 			>
-				<FaPhoneAlt size={20} />
+				<FaPhoneAlt size={20} color="#25d366" />
 			</button>
 			<button
 				onClick={handleWhatsApp}
-				className="flex justify-center items-center p-3 bg-light/80 rounded-full shadow-2xl"
+				className="flex justify-center items-center p-3 bg-black/80 rounded-full shadow-2xl"
 			>
-				<FaWhatsapp size={20} />
+				<FaWhatsapp size={20} color="#25d366" />
 			</button>
 		</div>
 	);
