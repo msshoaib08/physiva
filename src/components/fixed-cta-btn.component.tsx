@@ -13,7 +13,7 @@ const FixedCTAButtons = () => {
 		window.location.href = whatsappUrl;
 	};
 	return (
-		<div className="fixed bottom-5 right-6 z-50 flex flex-col gap-8">
+		<div className="fixed bottom-5 right-6 z-40 flex flex-col gap-8">
 			<button
 				onClick={handleCall}
 				className="flex justify-center items-center p-3 bg-black/80 rounded-full shadow-2xl"
