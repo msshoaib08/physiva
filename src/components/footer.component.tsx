@@ -23,7 +23,8 @@ const Footer: React.FC = () => {
 							{SOCIALMEDIA_LINKS.map(({ name, image, url }) => (
 								<div
 									key={name}
-									className="w-10 h-10 bg-light rounded-2xl flex justify-center items-center"
+									className="w-10 h-10 bg-light rounded-2xl flex justify-center items-center transition-all duration-300
+									 ease-in-out hover:bg-light-blue"
 								>
 									<a href={url}>
 										<img src={image} alt={`${name} icon`} className="w-6 h-6" />

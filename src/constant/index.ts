@@ -90,9 +90,9 @@ export const PROCESS = [
 ];
 
 export const SOCIALMEDIA_LINKS = [
-	{ name: 'twitter', image: '/twitter.svg', url: 'https://twitter.com' },
+	{ name: 'facebook', image: '/facebook.svg', url: 'https://facebook.com' },
 	{ name: 'instagram', image: '/instagram.svg', url: 'https://instagram.com' },
-	{ name: 'whatsApp', image: '/whatsapp.svg', url: 'https://whatsapp.com' },
+	// { name: 'whatsApp', image: '/whatsapp.svg', url: 'https://whatsapp.com' },
 	{ name: 'linkedIn', image: '/linkedin.svg', url: 'https://linkedin.com' },
 ];
 
@@ -102,21 +102,21 @@ export const TESTIMONIALS = [
 			'Physiva helped me recover from back pain. The treatment was effective, and the physiotherapist was professional. Highly recommend their services.',
 		img: '/testimonial-img1.jpeg',
 		name: 'Sayyada Khan',
-		treatment: 'Knee Pain',
+		treatment: 'Back Pain',
 	},
 	{
 		feedback:
 			'Thanks to Physiva, my knee pain is gone! The at-home treatment was convenient, and the therapist was knowledgeable and friendly.',
 		img: '/testimonial-img2.jpeg',
 		name: 'Qadeer Ahmad',
-		treatment: 'Stroke Rehab',
+		treatment: 'Knee Pain',
 	},
 	{
 		feedback:
 			"Physiva's team gave me personalized care that made a huge difference in my recovery. I can finally get back to my daily routine.",
 		img: '/testimonial-img3.jpeg',
 		name: 'Vikram Singh',
-		treatment: 'Lower Back Pain',
+		treatment: 'Stroke Rehab',
 	},
 	{
 		feedback:
@@ -130,16 +130,16 @@ export const TESTIMONIALS = [
 			'After my surgery, Physiva’s rehabilitation program helped me regain mobility quickly. Their approach is gentle but effective. I’m extremely satisfied!',
 		img: '/testimonial-img5.jpeg',
 		name: 'Sneha Gupta',
-		treatment: 'Stroke Rehab',
+		treatment: 'Post Surgery Rehab',
 	},
 ];
 
 export const DOCTOTORS_TEAM = [
 	{ img: '/doctor-img-1.jpeg', name: 'Dr. Samrudhi' },
-	{ img: '/doctor-img2.jpeg', name: 'Dr. Palak' },
-	{ img: '/doctor-img3.jpeg', name: 'Dr. Harshita' },
+	{ img: '/doctor-img2.jpeg', name: 'Dr. Nishchay' },
+	{ img: '/doctor-img3.jpeg', name: 'Dr. Iqra' },
 	{ img: '/doctor-img4.jpeg', name: 'Dr. Maryam' },
-	{ img: '/doctor-img5.jpeg', name: 'Dr. Patrick' },
+	{ img: '/doctor-img5.jpeg', name: 'Dr. Harshvardhan' },
 	{ img: '/doctor-img6.jpeg', name: 'Dr. Luqmaan' },
-	{ img: '/doctor-img7.jpeg', name: 'Dr. Shweta' },
+	{ img: '/doctor-img7.jpeg', name: 'Dr. Maviya' },
 ];
