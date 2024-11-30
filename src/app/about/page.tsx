@@ -1,5 +1,4 @@
 import CallToAction from '@/components/cta.component';
-import TeamsCarousel from '@/components/team-carousel.component';
 import { DOCTOTORS_TEAM } from '@/constant';
 import Image from 'next/image';
 
@@ -71,8 +70,6 @@ const AboutPage = () => {
 				<div className="py-16">
 					<CallToAction />
 					<div className="mt-16">
-						{/* <TeamsCarousel /> */}
-
 						<div className="flex flex-col gap-16">
 							<div className="w-full lg:max-w-[70%] lg:mx-auto flex flex-col justify-center items-center gap-5">
 								<h2 className="font-heading text-3xl text-center font-semibold capitalize">
@@ -82,7 +79,7 @@ const AboutPage = () => {
 							</div>
 							<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 place-items-center gap-8">
 								{DOCTOTORS_TEAM.map(({ img, name }, idx) => (
-									<div className="relative">
+									<div className="relative" key={idx}>
 										<Image
 											src={img}
 											width={200}
