@@ -1,5 +1,6 @@
 import CallToAction from '@/components/cta.component';
 import TeamsCarousel from '@/components/team-carousel.component';
+import { DOCTOTORS_TEAM } from '@/constant';
 import Image from 'next/image';
 
 const AboutPage = () => {
@@ -70,7 +71,36 @@ const AboutPage = () => {
 				<div className="py-16">
 					<CallToAction />
 					<div className="mt-16">
-						<TeamsCarousel />
+						{/* <TeamsCarousel /> */}
+
+						<div className="flex flex-col gap-16">
+							<div className="w-full lg:max-w-[70%] lg:mx-auto flex flex-col justify-center items-center gap-5">
+								<h2 className="font-heading text-3xl text-center font-semibold capitalize">
+									<span className="text-blue">Experienced Physicians </span>
+									Committed to Your Healing
+								</h2>
+							</div>
+							<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 place-items-center gap-8">
+								{DOCTOTORS_TEAM.map(({ img, name }, idx) => (
+									<div className="relative">
+										<Image
+											src={img}
+											width={200}
+											height={200}
+											className="w-[200px] h-[200px] object-cover object-top rounded-2xl"
+											alt={`${name}'s profile image`}
+										/>
+
+										<div className="absolute inset-0 bg-black/30 rounded-2xl"></div>
+										<div className="flex justify-center items-center">
+											<span className="block absolute bottom-3 bg-light/80 font-semibold text-sm z-10 py-2 px-6 rounded-full select-none">
+												{`Dr. ${name}`}
+											</span>
+										</div>
+									</div>
+								))}
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

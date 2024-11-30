@@ -22,7 +22,7 @@ const TeamsCarousel = () => {
 								<div className="absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-50 z-10 rounded-2xl transition-opacity duration-500 ease-in-out" />
 
 								<span className="absolute text-sm px-4 py-2 font-medium rounded-full bg-light/80 bottom-3 select-none z-10 opacity-0 group-hover:opacity-100 transform translate-y-10 group-hover:translate-y-0 transition-all duration-300">
-									{name}
+									{`Dr. ${name}`}
 								</span>
 							</div>
 							<Image
@@ -35,7 +35,7 @@ const TeamsCarousel = () => {
 
 							<div className="flex justify-center items-center">
 								<span className="block lg:hidden absolute bottom-3 bg-light/80 font-semibold text-sm z-10 py-2 px-6 rounded-full select-none">
-									{name}
+									{`Dr. ${name}`}
 								</span>
 							</div>
 						</div>

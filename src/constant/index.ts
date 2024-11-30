@@ -1,6 +1,8 @@
 export const NAV_ITEMS = [
 	{ navItem: 'About', url: '/about' },
 	{ navItem: 'Schedule', url: '#schedule' },
+	{ navItem: 'Pricing', url: '/#pricing' },
+	{ navItem: 'Reviews', url: '/#review' },
 	{ navItem: 'For Physiotherapist', url: '/#for-physiotherapist' },
 ];
 
@@ -135,11 +137,14 @@ export const TESTIMONIALS = [
 ];
 
 export const DOCTOTORS_TEAM = [
-	{ img: '/doctor-img-1.jpeg', name: 'Dr. Samrudhi' },
-	{ img: '/doctor-img2.jpeg', name: 'Dr. Nishchay' },
-	{ img: '/doctor-img3.jpeg', name: 'Dr. Iqra' },
-	{ img: '/doctor-img4.jpeg', name: 'Dr. Maryam' },
-	{ img: '/doctor-img5.jpeg', name: 'Dr. Harshvardhan' },
-	{ img: '/doctor-img6.jpeg', name: 'Dr. Luqmaan' },
-	{ img: '/doctor-img7.jpeg', name: 'Dr. Maviya' },
+	{ img: '/doctor-img-1.jpeg', name: 'Nidhi Soni' },
+	{ img: '/doctor-img2.jpeg', name: 'Sohrab' },
+	{ img: '/doctor-img3.jpeg', name: 'S. Chisti' },
+	{ img: '/doctor-img4.jpg', name: 'Farheen' },
+	{ img: '/doctor-img5.jpeg', name: 'D. Rai' },
+	{ img: '/doctor-img6.jpeg', name: 'Tarique' },
+	{ img: '/doctor-img7.jpeg', name: 'Luqmaan' },
+	{ img: '/doctor-img8.jpg', name: 'M. K. Gupta' },
+	{ img: '/doctor-img9.jpg', name: 'A. Raza' },
+	{ img: '/doctor-img10.jpeg', name: 'Abdur Raheem' },
 ];
