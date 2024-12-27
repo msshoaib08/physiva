@@ -8,13 +8,15 @@ const Footer: React.FC = () => {
 			<div className=" max-w-7xl px-5 md:px-10 py-16">
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 md:gap-20">
 					<div className="flex flex-col gap-5 text-start">
-						<Image
-							src="/next.svg"
-							width={80}
-							height={80}
-							alt="logo"
-							className="text-start"
-						/>
+						<Link href="/">
+							<Image
+								src="/logo.png"
+								width={80}
+								height={80}
+								alt="logo"
+								className="text-start"
+							/>
+						</Link>
 						<p className="">
 							Physiva brings expert physiotherapy to your doorstep, offering
 							personalized care to help you regain strength and mobility.

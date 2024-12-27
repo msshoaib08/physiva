@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
 			>
 				<div className="max-w-7xl px-5 md:px-10 w-full flex justify-between items-center">
 					<Link href="/">
-						<Image src="/next.svg" width={60} height={60} alt="physiva logo" />
+						<Image src="/logo.png" width={80} height={80} alt="physiva logo" />
 					</Link>
 
 					{/* Toggle Button */}

@@ -13,8 +13,10 @@ const HeroPage = () => {
 				<div className="w-full grid place-items-center grid-cols-1 lg:grid-cols-2 gap-10 mb-8 lg:mb-20">
 					<div className="flex flex-col lg:text-start">
 						<h2 className="text-[32px] md:text-[40px] lg:text-[55px] font-semibold font-heading mb-4 leading-tight capitalize">
-							Physiotherapy <span className="text-blue">Redefined</span> for
-							Your Recovery
+							{/* India&apos;s <span className="text-blue">Leading</span> At-Home
+							Physiotherapy Service */}
+							India's <span className="text-blue">Top Choice</span> for At-Home
+							Physiotherapy
 						</h2>
 						<p className="mb-6">
 							Experience personalized care with India&apos;s top

@@ -2,13 +2,13 @@ export const NAV_ITEMS = [
 	{ navItem: 'About', url: '/about' },
 	{ navItem: 'Schedule', url: '#schedule' },
 	{ navItem: 'Pricing', url: '/#pricing' },
+	{ navItem: 'Career', url: '/#for-physiotherapist' },
 	{ navItem: 'Reviews', url: '/#review' },
-	{ navItem: 'For Physiotherapist', url: '/#for-physiotherapist' },
 ];
 
 export const CORE_FEATURES = [
 	{
-		title: "Consult India's best doctor",
+		title: 'Connect with India’s Leading Physiotherapists',
 		icon: '/doctor-icon2.png',
 		ariaLable: 'doctor-icon',
 	},
@@ -18,12 +18,12 @@ export const CORE_FEATURES = [
 		ariaLable: 'home-icon',
 	},
 	{
-		title: '1000s of Patients Recovered',
+		title: 'Thousands of Success Stories',
 		icon: '/patient-icon.png',
 		ariaLable: 'patient-icon',
 	},
 	{
-		title: 'Affordable & Transparent',
+		title: 'Affordable Care, No Hidden Costs',
 		icon: '/affordable-icon.png',
 		ariaLable: 'affordable-price-icon',
 	},
@@ -69,13 +69,13 @@ export const PROCESS = [
 		step: '01',
 		title: 'Schedule Your Session',
 		description:
-			'Easily book your session through our app or via phone. Choose your location, condition, and a timeslot that suits you best.',
+			'Book your session effortlessly through a quick phone call, WhatsApp, or by filling form. Simply select your location, share your condition, and pick a timeslot that works for you!',
 	},
 	{
 		step: '02',
 		title: 'Initial Assessment at Home',
 		description:
-			'Our expert physiotherapist will visit your home for a thorough evaluation and design a personalized treatment plan tailored to your recovery needs.',
+			'Our expert physiotherapist will visit your home, check your condition, and create a personalized treatment plan to support your recovery.',
 	},
 	{
 		step: '03',
