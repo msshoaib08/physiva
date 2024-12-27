@@ -15,8 +15,8 @@ const HeroPage = () => {
 						<h2 className="text-[32px] md:text-[40px] lg:text-[55px] font-semibold font-heading mb-4 leading-tight capitalize">
 							{/* India&apos;s <span className="text-blue">Leading</span> At-Home
 							Physiotherapy Service */}
-							India's <span className="text-blue">Top Choice</span> for At-Home
-							Physiotherapy
+							India&apos;s <span className="text-blue">Top Choice</span> for
+							At-Home Physiotherapy
 						</h2>
 						<p className="mb-6">
 							Experience personalized care with India&apos;s top
