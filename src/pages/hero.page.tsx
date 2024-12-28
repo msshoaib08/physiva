@@ -11,7 +11,9 @@ const HeroPage = () => {
 	return (
 		<>
 			<Head>
-				<title>Physiva - India's Top Choice for At-Home Physiotherapy</title>
+				<title>
+					Physiva - India&apos;s Top Choice for At-Home Physiotherapy
+				</title>
 				<meta
 					name="description"
 					content="Physiva provides top physiotherapy services at home in India. Book an appointment with the best physiotherapists in the country. Affordable, convenient, and trusted by thousands."
