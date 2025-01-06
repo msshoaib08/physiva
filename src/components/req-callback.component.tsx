@@ -68,7 +68,7 @@ const RequestCallback = () => {
 			<Toaster containerStyle={{ margin: '0', padding: '0', zIndex: 9999 }} />
 			<div className="max-w-7xl px-5 md:px-10 w-full ">
 				<div className="relative bg-[url('/assets/cta-bg.jpg')] bg-cover bg-center bg-no-repeat p-10 rounded-2xl">
-					<div className="absolute inset-0 bg-black/40 rounded-2xl"></div>
+					<div className="absolute inset-0 bg-black/50 rounded-2xl"></div>
 					<div className="relative z-[1]">
 						<h2 className="text-3xl font-semibold text-white font-heading text-center mb-4">
 							Request a Callback
@@ -77,9 +77,9 @@ const RequestCallback = () => {
 							Fill out the form below and our team will call you back.
 						</p>
 						{isSubmitted ? (
-							<p className="text-green-600 text-center font-medium">
+							<span className="text-green-600 text-center font-medium bg-light shadow-2xl rounded-2xl py-2 px-4">
 								Thank you! We&apos;ll call you back shortly.
-							</p>
+							</span>
 						) : (
 							<form
 								onSubmit={handleSubmit}
@@ -93,7 +93,7 @@ const RequestCallback = () => {
 										name="fullname"
 										value={formData.fullname}
 										onChange={handleChange}
-										className="w-full px-4 py-2 bg-light rounded-lg text-body focus:outline-none focus:border-none"
+										className=" w-full px-4 py-2 bg-light rounded-lg text-body focus:outline-none focus:border-none "
 										placeholder="Enter your full name"
 									/>
 								</div>
