@@ -2,7 +2,7 @@ import PrimaryButton from '@/components/primary-btn.component';
 import Head from 'next/head';
 import Image from 'next/image';
 
-const PricingPage = () => {
+const PricingPage: React.FC = () => {
 	return (
 		<>
 			<Head>
@@ -68,7 +68,7 @@ const PricingPage = () => {
 			</Head>
 			{/* Meta tags end here */}
 
-			<section id="pricing">
+			<section id="pricing" className="pb-0">
 				<div className="max-w-7xl px-5 md:px-10 w-full">
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
 						<div className="w-full lg:w-[80%] flex flex-col justify-center items-center gap-5 lg:text-start">

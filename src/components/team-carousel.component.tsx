@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Marquee from 'react-fast-marquee';
 
 const TeamsCarousel = () => {
-	const marqueeSpeed = 30;
+	const marqueeSpeed = 60;
 	return (
 		<div className="flex flex-col">
 			<div className="w-full lg:max-w-[70%] lg:mx-auto flex flex-col justify-center items-center gap-5">

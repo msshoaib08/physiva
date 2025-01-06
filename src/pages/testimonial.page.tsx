@@ -8,7 +8,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import Image from 'next/image';
 import { TESTIMONIALS } from '@/constant';
 
-const TestimonialPage = () => {
+const TestimonialPage: React.FC = () => {
 	return (
 		<section id="review">
 			<div className="max-w-7xl px-5 md:px-10 w-full">

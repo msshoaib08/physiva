@@ -5,16 +5,16 @@ import Link from 'next/link';
 const Footer: React.FC = () => {
 	return (
 		<section className="bg-blue text-white ">
-			<div className=" max-w-7xl px-5 md:px-10 py-16">
+			<div className=" max-w-7xl px-5 md:px-10">
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 md:gap-20">
 					<div className="flex flex-col gap-5 text-start">
 						<Link href="/">
 							<Image
-								src="/logo.png"
-								width={80}
-								height={80}
+								src="/assets/logo.png"
+								width={40}
+								height={40}
 								alt="logo"
-								className="text-start"
+								className="w-10 h-10 text-start"
 							/>
 						</Link>
 						<p className="">

@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const AboutPage = () => {
 	return (
-		<section className="pt-36 min-h-screen h-full relative bg-[url('/about-bg.jpg')] bg-cover bg-center bg-no-repeat">
+		<section className="pt-36 min-h-screen h-full relative bg-[url('/assets/about-bg.jpg')] bg-cover bg-center bg-no-repeat">
 			<div className="max-w-7xl px-5 md:px-10 w-full">
 				<div className="w-full lg:w-[60%] flex flex-col gap-5 lg:text-start">
 					<h2 className="font-heading text-3xl lg:text-5xl font-semibold lg:leading-tight">
@@ -17,34 +17,34 @@ const AboutPage = () => {
 
 				<div className="relative w-full h-full lg:max-w-[80%] lg:mx-auto my-16 flex justify-center items-center">
 					<img
-						src="/about-img2.jpg"
+						src="/assets/about-img2.jpg"
 						alt="about image"
 						className="rounded-2xl lg:rounded-3xl shadow-3xl w-full h-auto"
 					/>
 
 					<Image
-						src="/about-img1.jpg"
+						src="/assets/about-img1.jpg"
 						width={150}
 						height={150}
 						alt="about-img"
 						className="galssmorphism hidden lg:block w-[150px] h-[150px] absolute top-10  right-10 rounded-2xl object-cover shadow-2xl"
 					/>
 					<Image
-						src="/about-img1.jpg"
+						src="/assets/about-img1.jpg"
 						width={150}
 						height={150}
 						alt="about-img"
 						className="galssmorphism hidden lg:block w-[150px] h-[150px] absolute bottom-10 left-10 rounded-2xl object-cover shadow-2xl"
 					/>
 					<Image
-						src="/about-img3.jpg"
+						src="/assets/about-img3.jpg"
 						width={150}
 						height={150}
 						alt="about-img"
 						className="galssmorphism hidden lg:block w-[150px] h-[150px] absolute bottom-10 right-10 rounded-2xl object-cover shadow-2xl"
 					/>
 					<Image
-						src="/about-img3.jpg"
+						src="/assets/about-img3.jpg"
 						width={150}
 						height={150}
 						alt="about-img"
@@ -77,20 +77,24 @@ const AboutPage = () => {
 									Committed to Your Healing
 								</h2>
 							</div>
-							<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 place-items-center gap-8">
+							<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 place-items-center gap-8">
 								{DOCTOTORS_TEAM.map(({ img, name }, idx) => (
-									<div className="relative" key={idx}>
-										<Image
-											src={img}
-											width={200}
-											height={200}
-											className="w-[200px] h-[200px] object-cover object-top rounded-2xl"
-											alt={`${name}'s profile image`}
-										/>
-
-										<div className="absolute inset-0 bg-black/30 rounded-2xl"></div>
+									<div
+										className="relative flex justify-center items-center flex-col gap-3"
+										key={idx}
+									>
+										<div className="relative">
+											<Image
+												src={img}
+												width={100}
+												height={100}
+												className="w-[100px] h-[100px] object-cover object-top rounded-full"
+												alt={`${name}'s profile image`}
+											/>
+											<div className="absolute inset-0 bg-black/30 rounded-full"></div>
+										</div>
 										<div className="flex justify-center items-center">
-											<span className="block absolute bottom-3 bg-light/80 font-semibold text-sm z-10 py-2 px-6 rounded-full select-none">
+											<span className="font-bold text-sm select-none">
 												{`Dr. ${name}`}
 											</span>
 										</div>

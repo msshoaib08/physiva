@@ -96,7 +96,7 @@ const TreatmentPage: React.FC = () => {
 											className="mt-5 w-fit py-3 px-5 flex items-center gap-2 bg-heading/10 rounded-full transition-all duration-300 ease-in-out hover:shadow-xl"
 										>
 											<img
-												src="/calling-icon.png"
+												src="/assets/calling-icon.png"
 												alt="phone icon"
 												className="w-6 h-6"
 											/>

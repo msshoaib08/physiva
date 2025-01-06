@@ -7,7 +7,7 @@ import { FcGoogle } from 'react-icons/fc';
 import { IoStar, IoStarHalf } from 'react-icons/io5';
 import Head from 'next/head';
 
-const HeroPage = () => {
+const HeroPage: React.FC = () => {
 	return (
 		<>
 			<Head>
@@ -50,7 +50,7 @@ const HeroPage = () => {
 			</Head>
 			{/* Meta tags end here */}
 
-			<section className="hero relative pt-36 min-h-screen">
+			<section className="hero relative pt-36 h-full">
 				<div className="max-w-7xl px-5 md:px-10 w-full">
 					<div className="w-full grid place-items-center grid-cols-1 lg:grid-cols-2 gap-10 mb-8 lg:mb-20">
 						<div className="flex flex-col lg:text-start">
@@ -74,7 +74,7 @@ const HeroPage = () => {
 						{/* Hero Image and Rating */}
 						<div className="my-8 lg:mt-0 relative text-center">
 							<img
-								src="/hero-img.jpg"
+								src="/assets/hero-img.jpg"
 								className="max-w-full h-auto rounded-2xl shadow-2xl"
 								alt="At-Home Physiotherapy Service"
 							/>

@@ -2,7 +2,7 @@
 
 import { FaPhoneAlt, FaWhatsapp } from 'react-icons/fa';
 
-const FixedCTAButtons = () => {
+const FixedCTAButtons: React.FC = () => {
 	const handleCall = () => {
 		window.location.href = 'tel:+918887776668';
 	};

@@ -15,7 +15,7 @@ const GraphicPage: React.FC = () => {
 
 				<div className="w-full lg:max-w-[80%] relative lg:mx-auto mt-20">
 					<img
-						src="/graphic-img.jpg"
+						src="/assets/graphic-img.jpg"
 						alt="physiotherapy image"
 						className="rounded-2xl lg:rounded-3xl shadow-3xl w-full h-auto"
 					/>
@@ -25,7 +25,7 @@ const GraphicPage: React.FC = () => {
 							<div className="glassmorphism flex flex-col gap-3 w-full py-3 px-4">
 								<div className="flex items-center w-full gap-2">
 									<img
-										src="/doctor-icon.png"
+										src="/assets/doctor-icon.png"
 										alt="doctor icon"
 										className="w-6 h-6"
 									/>

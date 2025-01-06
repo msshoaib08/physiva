@@ -6,7 +6,7 @@ import TeamsCarousel from '@/components/team-carousel.component';
 import Head from 'next/head';
 import { useState } from 'react';
 
-const ContactPage = () => {
+const ContactPage: React.FC = () => {
 	const [showModal, setShowModal] = useState(false);
 
 	const handleShowModal = () => {
@@ -73,7 +73,7 @@ const ContactPage = () => {
 
 			<section
 				id="for-physiotherapist"
-				className={`bg-[url('/cta-bg2.jpg')] bg-cover bg-center`}
+				className={`bg-[url('/assets/cta-bg2.jpg')] bg-cover bg-center`}
 			>
 				<div className="max-w-7xl px-5 md:px-10 w-full">
 					<TeamsCarousel />

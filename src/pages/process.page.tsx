@@ -72,7 +72,7 @@ const ProcessPage: React.FC = () => {
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 mt-16">
 						<div className="flex flex-col gap-10">
 							<img
-								src="/process-img1.jpg"
+								src="/assets/process-img1.jpg"
 								alt="physiotherapy image"
 								className="w-full h-auto rounded-3xl shadow-2xl"
 							/>
@@ -96,7 +96,7 @@ const ProcessPage: React.FC = () => {
 								</div>
 							</div>
 							<img
-								src="/process-img2.jpg"
+								src="/assets/process-img2.jpg"
 								alt="physiotherapy treatment"
 								className="w-full h-auto rounded-3xl shadow-2xl"
 							/>
@@ -121,7 +121,7 @@ const ProcessPage: React.FC = () => {
 											className="mt-5 w-fit py-3 px-5 flex items-center gap-2 bg-heading/10 rounded-full transition-all duration-300 ease-in-out hover:shadow-xl"
 										>
 											<img
-												src="/calling-icon.png"
+												src="/assets/calling-icon.png"
 												alt="phone icon"
 												className="w-6 h-6"
 											/>
