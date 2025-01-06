@@ -48,6 +48,8 @@ export default function RootLayout({
 				<link rel="alternate" hrefLang="en-IN" href="https://physiva.in" />
 				<link rel="alternate" hrefLang="en-US" href="https://physiva.com" />
 				<link rel="alternate" hrefLang="x-default" href="https://physiva.in" />
+				{/* Canonical Link */}
+				<link rel="canonical" href="https://physiva.in" />
 			</head>
 			<body className="font-body bg-white text-body antialiased">
 				<Navbar />
