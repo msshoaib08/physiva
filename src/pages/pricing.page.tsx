@@ -85,7 +85,7 @@ const PricingPage: React.FC = () => {
 							<div className="flex items-center justify-center flex-col w-full lg:justify-start gap-4">
 								<div className="w-full h-16 px-5 bg-light rounded-full flex justify-start items-center gap-2">
 									<Image
-										src="/doctor-icon3.png"
+										src="/assets/doctor-icon3.png"
 										alt="Expert physiotherapists available at your doorstep"
 										width={35}
 										height={35}
@@ -98,7 +98,7 @@ const PricingPage: React.FC = () => {
 								</div>
 								<div className="w-full h-20 px-5 bg-light rounded-full flex justify-start items-center gap-2">
 									<Image
-										src="/no-hidden-fee-icon.png"
+										src="/assets/no-hidden-fee-icon.png"
 										alt="Transparent pricing with no hidden costs"
 										width={35}
 										height={35}

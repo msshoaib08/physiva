@@ -6,7 +6,7 @@ import toast, { Toaster } from 'react-hot-toast';
 const RequestCallback = () => {
 	const [formData, setFormData] = useState({ fullname: '', mobileNumber: '' });
 	const [isSubmitted, setIsSubmitted] = useState(false);
-	const [isSubmitting, setIsSubmitting] = useState(false); // New state for loading
+	const [isSubmitting, setIsSubmitting] = useState(false);
 	const [error, setError] = useState('');
 
 	const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {

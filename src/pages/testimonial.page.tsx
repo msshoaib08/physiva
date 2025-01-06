@@ -41,7 +41,7 @@ const TestimonialPage: React.FC = () => {
 							<SwiperSlide key={idx} className="mb-16">
 								<div className="flex flex-col">
 									<Image
-										src="/qoute-icon.png"
+										src="/assets/qoute-icon.png"
 										width={40}
 										height={40}
 										alt="qoute icon"
