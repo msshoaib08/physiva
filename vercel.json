@@ -2,7 +2,7 @@
 	"redirects": [
 		{
 			"source": "/",
-			"destination": "https://www.physiva.in",
+			"destination": "https://physiva.in",
 			"permanent": true
 		}
 	]
