@@ -64,7 +64,7 @@ const RequestCallback = () => {
 	};
 
 	return (
-		<section className="w-full py-10">
+		<section className="w-full pb-16 pt-0 lg:pt-16">
 			<Toaster containerStyle={{ margin: '0', padding: '0', zIndex: 9999 }} />
 			<div className="max-w-7xl px-5 md:px-10 w-full ">
 				<div className="relative bg-[url('/assets/cta-bg.jpg')] bg-cover bg-center bg-no-repeat p-10 rounded-2xl">
@@ -77,7 +77,7 @@ const RequestCallback = () => {
 							Fill out the form below and our team will call you back.
 						</p>
 						{isSubmitted ? (
-							<span className="text-green-600 text-center font-medium bg-light shadow-2xl rounded-2xl py-2 px-4">
+							<span className="text-green-600 text-center text-xs font-medium bg-light shadow-2xl rounded-2xl py-2 px-3">
 								Thank you! We&apos;ll call you back shortly.
 							</span>
 						) : (
