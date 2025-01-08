@@ -7,13 +7,13 @@ export default function NotFound() {
 				<div className="flex justify-between items-center gap-10 flex-col">
 					<div className="w-full lg:w-[70%]">
 						<h1 className="text-4xl lg:text-5xl font-heading text-center text-heading font-bold ">
-							Oops! Looks like you're lost.
+							Oops! Looks like you&apos;re lost.
 						</h1>
 
 						<p className="my-5 font-medium text-lg">
-							We couldn't find the page you were looking for. But don't worry,
-							we're here to help you get back on track! Click below to return to
-							the homepage or explore more.
+							We couldn&apos;t find the page you were looking for. But
+							don&apos;t worry, we&apos;re here to help you get back on track!
+							Click below to return to the homepage or explore more.
 						</p>
 
 						<Link
