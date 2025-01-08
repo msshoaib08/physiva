@@ -67,10 +67,9 @@ const AboutPage = () => {
 					</span>
 				</div>
 
-				<div className="py-16">
-					<CallToAction />
-					<div className="mt-16">
-						<div className="flex flex-col gap-16">
+				<div className="pt-16">
+					<div className="mb-16">
+						<div className="flex flex-col gap-10">
 							<div className="w-full lg:max-w-[70%] lg:mx-auto flex flex-col justify-center items-center gap-5">
 								<h2 className="font-heading text-3xl text-center font-semibold capitalize">
 									<span className="text-blue">Experienced Physicians </span>
@@ -103,6 +102,7 @@ const AboutPage = () => {
 							</div>
 						</div>
 					</div>
+					<CallToAction />
 				</div>
 			</div>
 		</section>

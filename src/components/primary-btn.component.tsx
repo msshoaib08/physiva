@@ -6,7 +6,7 @@ interface PrimaryButtonProps {
 }
 const PrimaryButton: React.FC<PrimaryButtonProps> = ({ btnText }) => {
 	const handleClick = () => {
-		window.location.href = 'tel:+918887776668';
+		window.location.href = 'tel:9137372515';
 	};
 	return (
 		<button

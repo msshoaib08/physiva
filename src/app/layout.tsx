@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 			'Physiva is your trusted partner in physiotherapy and rehabilitation, offering expert care to help you heal, restore mobility, and thrive.',
 		images: [
 			{
-				url: 'https://physiva.in/og-image.png',
+				url: 'https://physiva.in/assets/og-image.png',
 				width: 1200,
 				height: 630,
 				alt: 'Physiva Logo',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 		title: 'Physiva - Heal, Restore, Thrive',
 		description:
 			'Physiva is your trusted partner in physiotherapy and rehabilitation, offering expert care to help you heal, restore mobility, and thrive.',
-		images: ['https://physiva.in/og-image.png'],
+		images: ['https://physiva.in/assets/og-image.png'],
 	},
 };
 
@@ -50,6 +50,16 @@ export default function RootLayout({
 				<link rel="alternate" hrefLang="x-default" href="https://physiva.in" />
 				{/* Canonical Link */}
 				<link rel="canonical" href="https://physiva.in" />
+
+				<script type="application/ld+json">
+					{JSON.stringify({
+						'@context': 'https://schema.org',
+						'@type': 'Organization',
+						name: 'Physiva',
+						url: 'https://physiva.in',
+						logo: 'https://physiva.in/og-image.png',
+					})}
+				</script>
 			</head>
 			<body className="font-body bg-white text-body antialiased">
 				<Navbar />

@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
 									className="w-10 h-10 bg-light rounded-2xl flex justify-center items-center transition-all duration-300
 									 ease-in-out hover:bg-light-blue"
 								>
-									<a href={url}>
+									<a href={url} target="_blank">
 										<img src={image} alt={`${name} icon`} className="w-6 h-6" />
 									</a>
 								</div>

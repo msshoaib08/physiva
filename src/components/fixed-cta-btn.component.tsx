@@ -8,7 +8,7 @@ const FixedCTAButtons: React.FC = () => {
 	};
 
 	const handleWhatsApp = () => {
-		const phoneNumber = '+918887776668';
+		const phoneNumber = '9137372515';
 		const whatsappUrl = `https://wa.me/${phoneNumber}`;
 		window.location.href = whatsappUrl;
 	};

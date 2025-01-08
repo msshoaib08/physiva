@@ -50,7 +50,7 @@ const HeroPage: React.FC = () => {
 			</Head>
 			{/* Meta tags end here */}
 
-			<section className="hero relative pt-36 h-full">
+			<section className="hero relative pt-28 lg:pt-36 h-full">
 				<div className="max-w-7xl px-5 md:px-10 w-full">
 					<div className="w-full grid place-items-center grid-cols-1 lg:grid-cols-2 gap-10 mb-8 lg:mb-20">
 						<div className="flex flex-col lg:text-start">

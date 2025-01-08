@@ -95,18 +95,18 @@ export const SOCIALMEDIA_LINKS = [
 	{
 		name: 'facebook',
 		image: '/assets/facebook.svg',
-		url: 'https://facebook.com',
+		url: 'https://facebook.com/physivain',
 	},
 	{
 		name: 'instagram',
 		image: '/assets/instagram.svg',
-		url: 'https://instagram.com',
+		url: 'https://instagram.com/physivain',
 	},
 	// { name: 'whatsApp', image: '/assets/whatsapp.svg', url: 'https://whatsapp.com' },
 	{
 		name: 'linkedIn',
 		image: '/assets/linkedin.svg',
-		url: 'https://linkedin.com',
+		url: 'https://linkedin.com/in/physivain',
 	},
 ];
 
