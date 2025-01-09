@@ -57,6 +57,11 @@ export default function RootLayout({
 					content="q6JlAdAHDVzHWgwgyDDz0r4185XxykdhVYuvAYdhHTM"
 				/>
 
+				<meta
+					name="google-site-verification"
+					content="cHGpGUd0NCUg51Ndtdrrvp8cbEQrMOqRaQdh9aOFZwM"
+				/>
+
 				<script type="application/ld+json">
 					{JSON.stringify({
 						'@context': 'https://schema.org',
