@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 export async function GET() {
 	const robotsContent = `
     User-agent: *
-    Disallow: /admin
+    Disallow: 
     Allow: /
 
     Sitemap: https://physiva.in/sitemap.xml
