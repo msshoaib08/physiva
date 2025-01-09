@@ -51,6 +51,12 @@ export default function RootLayout({
 				{/* Canonical Link */}
 				<link rel="canonical" href="https://physiva.in" />
 
+				{/* Google Console Verification */}
+				<meta
+					name="google-site-verification"
+					content="q6JlAdAHDVzHWgwgyDDz0r4185XxykdhVYuvAYdhHTM"
+				/>
+
 				<script type="application/ld+json">
 					{JSON.stringify({
 						'@context': 'https://schema.org',
