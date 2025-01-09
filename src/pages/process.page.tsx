@@ -5,7 +5,7 @@ import Head from 'next/head';
 
 const ProcessPage: React.FC = () => {
 	const handleClick = () => {
-		window.location.href = 'tel:+918887776668';
+		window.location.href = 'tel:+919137372515';
 	};
 
 	return (
