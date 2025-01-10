@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 				url: 'https://physiva.in/assets/og-image.png',
 				width: 1200,
 				height: 630,
-				alt: 'Physiva Open Graoh Image',
+				alt: 'Physiva Open Graph Image',
 			},
 		],
 	},
@@ -56,6 +56,10 @@ export default function RootLayout({
 					name="google-site-verification"
 					content="q6JlAdAHDVzHWgwgyDDz0r4185XxykdhVYuvAYdhHTM"
 				/>
+
+				<meta name="theme-color" content="#ffffff" />
+				<meta name="apple-mobile-web-app-capable" content="yes" />
+				<meta name="apple-mobile-web-app-status-bar-style" content="default" />
 
 				<script type="application/ld+json">
 					{JSON.stringify({
