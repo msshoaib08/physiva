@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 				url: 'https://physiva.in/assets/og-image.png',
 				width: 1200,
 				height: 630,
-				alt: 'Physiva Logo',
+				alt: 'Physiva Open Graoh Image',
 			},
 		],
 	},
