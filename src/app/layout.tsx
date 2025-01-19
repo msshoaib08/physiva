@@ -5,7 +5,7 @@ import Footer from '@/components/footer.component';
 import FixedCTAButtons from '@/components/fixed-cta-btn.component';
 
 export const metadata: Metadata = {
-	title: 'Physiva - Heal, Restore, Thrive',
+	title: 'Physiva - Trusted Physiotherapy at Home',
 	description:
 		'Physiva is your trusted partner in physiotherapy and rehabilitation, offering expert care to help you heal, restore mobility, and thrive.',
 	keywords:
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		type: 'website',
 		url: 'https://physiva.in',
-		title: 'Physiva - Heal, Restore, Thrive',
+		title: 'Physiva - Trusted Physiotherapy at Home',
 		description:
 			'Physiva is your trusted partner in physiotherapy and rehabilitation, offering expert care to help you heal, restore mobility, and thrive.',
 		images: [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: 'Physiva - Heal, Restore, Thrive',
+		title: 'Physiva - Trusted Physiotherapy at Home',
 		description:
 			'Physiva is your trusted partner in physiotherapy and rehabilitation, offering expert care to help you heal, restore mobility, and thrive.',
 		images: ['https://physiva.in/assets/og-image.png'],
