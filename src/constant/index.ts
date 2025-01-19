@@ -150,7 +150,7 @@ export const TESTIMONIALS = [
 
 export const DOCTOTORS_TEAM = [
 	{ img: '/assets/doctors-image/luqmaan.jpeg', name: 'Luqmaan' },
-	{ img: '/assets/doctors-image/manisha-goyal.jpeg', name: 'Manisha Goyal' },
+	{ img: '/assets/doctors-image/manisha-sodhe.jpeg', name: 'Manisha Sodhe' },
 	{ img: '/assets/doctors-image/farheen.jpeg', name: 'Farheen' },
 	{ img: '/assets/doctors-image/nidhi-soni.jpeg', name: 'Nidhi Soni' },
 	{ img: '/assets/doctors-image/p-chandra.jpeg', name: 'P. Chandra' },

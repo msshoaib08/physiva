@@ -20,7 +20,7 @@ const ModalContent: React.FC<ModalContentProps> = ({ onClose }) => {
 			toast.error('Please check the box to confirm you have read the terms.');
 			return;
 		}
-		window.open('https://forms.gle/iftasgLSk3jawtrV9', '_blank');
+		window.open('https://forms.gle/PgVNFk3LtaSsvv9j9', '_blank');
 		onClose();
 	};
 	return (
