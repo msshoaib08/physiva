@@ -165,4 +165,7 @@ export const DOCTOTORS_TEAM = [
 	{ img: '/assets/doctors-image/sohrab.jpeg', name: 'Sohrab' },
 	{ img: '/assets/doctors-image/tarique.jpeg', name: 'Tarique' },
 	{ img: '/assets/doctors-image/saif.jpeg', name: 'Saif' },
+	{ img: '/assets/doctors-image/faiyaz.jpeg', name: 'Faiyaz' },
+	{ img: '/assets/doctors-image/kamran.jpeg', name: 'Kamran' },
+	{ img: '/assets/doctors-image/a-raheem.jpeg', name: 'A. Raheem' },
 ];
