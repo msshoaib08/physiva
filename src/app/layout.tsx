@@ -7,7 +7,7 @@ import FixedCTAButtons from '@/components/fixed-cta-btn.component';
 export const metadata: Metadata = {
 	title: 'Physiva - Trusted Physiotherapy at Home',
 	description:
-		'Physiva is your trusted partner in physiotherapy and rehabilitation, offering expert care to help you heal, restore mobility, and thrive.',
+		'Physiva is your trusted partner in physiotherapy and rehabilitation, offering expert care starting at just ₹649 to help you heal, restore mobility, and thrive.',
 	keywords:
 		'Physiva, physiotherapy, rehabilitation, wellness, expert care, mobility restoration',
 	openGraph: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 		url: 'https://physiva.in',
 		title: 'Physiva - Trusted Physiotherapy at Home',
 		description:
-			'Physiva is your trusted partner in physiotherapy and rehabilitation, offering expert care to help you heal, restore mobility, and thrive.',
+			'Physiva is your trusted partner in physiotherapy and rehabilitation, offering expert care starting at just ₹649 to help you heal, restore mobility, and thrive.',
 		images: [
 			{
 				url: 'https://physiva.in/assets/og-image.png',
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 		card: 'summary_large_image',
 		title: 'Physiva - Trusted Physiotherapy at Home',
 		description:
-			'Physiva is your trusted partner in physiotherapy and rehabilitation, offering expert care to help you heal, restore mobility, and thrive.',
+			'Physiva is your trusted partner in physiotherapy and rehabilitation, offering expert care starting at just ₹649 to help you heal, restore mobility, and thrive.',
 		images: ['https://physiva.in/assets/og-image.png'],
 	},
 };

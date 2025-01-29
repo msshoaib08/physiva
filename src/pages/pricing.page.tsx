@@ -113,9 +113,9 @@ const PricingPage: React.FC = () => {
 						<div className="flex justify-center items-center">
 							<div className="w-[400px] h-[400px] relative rounded-full bg-light ">
 								<div className="py-16 flex flex-col justify-between items-center ">
-									<span className="text-3xl font-semibold">Price</span>
+									<span className="text-3xl font-semibold">Start at</span>
 									<span className="text-7xl font-bold mt-10 font-heading">
-										₹ 799 <span className="text-base -ml-2">Only</span>
+										₹ 649 <span className="text-base -ml-2">Only</span>
 									</span>
 									<span className="text-3xl font-semibold mb-10">
 										per session
