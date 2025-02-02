@@ -60,6 +60,9 @@ const Footer: React.FC = () => {
 							02, Upper Floor, beside Silver Enclave, Shil Phata, Thane,
 							Maharashtra, 400612
 						</p>
+						<span>
+							<strong>Phone : 9137372515</strong>
+						</span>
 
 						<span className="mt-4 text-lg font-medium font-heading select-none">
 							&copy; 2024 Physiva. All rights reserved.
