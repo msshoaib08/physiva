@@ -95,18 +95,23 @@ export const SOCIALMEDIA_LINKS = [
 	{
 		name: 'facebook',
 		image: '/assets/facebook.svg',
-		url: 'https://facebook.com/physivain',
+		url: 'https://www.facebook.com/share/1BCQRhWxpw/',
 	},
 	{
 		name: 'instagram',
 		image: '/assets/instagram.svg',
-		url: 'https://instagram.com/physivain',
+		url: 'https://instagram.com/physiva.in',
 	},
 	// { name: 'whatsApp', image: '/assets/whatsapp.svg', url: 'https://whatsapp.com' },
 	{
+		name: 'youtube',
+		image: '/assets/youtube.svg',
+		url: 'https://youtube.com/@physivaphysio',
+	},
+	{
 		name: 'linkedIn',
 		image: '/assets/linkedin.svg',
-		url: 'https://linkedin.com/in/physivain',
+		url: 'https://www.linkedin.com/company/physiva/',
 	},
 ];
 
