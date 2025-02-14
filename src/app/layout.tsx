@@ -3,6 +3,7 @@ import './globals.css';
 import Navbar from '@/components/navbar.component';
 import Footer from '@/components/footer.component';
 import FixedCTAButtons from '@/components/fixed-cta-btn.component';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
 	title: 'Physiva - Trusted Physiotherapy at Home',
@@ -70,6 +71,25 @@ export default function RootLayout({
 						logo: 'https://physiva.in/assets/logo.png',
 					})}
 				</script>
+
+				{/* Google tag (gtag.js) */}
+				<Script
+					strategy="afterInteractive"
+					src="https://www.googletagmanager.com/gtag/js?id=AW-16849802062"
+				/>
+				<Script
+					id="google-analytics"
+					strategy="afterInteractive"
+					dangerouslySetInnerHTML={{
+						__html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'AW-16849802062');
+        `,
+					}}
+				/>
 			</head>
 			<body className="font-body bg-white text-body antialiased">
 				<Navbar />
@@ -78,6 +98,57 @@ export default function RootLayout({
 				</main>
 				<Footer />
 				<FixedCTAButtons />
+
+				{/* Google tag (gtag.js) */}
+				<Script
+					id="conversion-checker"
+					strategy="afterInteractive"
+					dangerouslySetInnerHTML={{
+						__html: `
+        var x = 0;
+        var myVar = setInterval(function(){
+            if(x == 0){
+                try{
+                    if(document.querySelector('[class*="text-green-600 text-center text-xs font-medium bg-light shadow-2xl rounded-2xl py-2 px-3"]')!=null 
+                        && document.querySelector('[class*="text-green-600 text-center text-xs font-medium bg-light shadow-2xl rounded-2xl py-2 px-3"]').innerText.indexOf("Thank you!")!=-1){
+                        gtag('event', 'conversion', {'send_to': 'AW-16849802062/i30-CILZ650aEM6mzuI-'});
+                        clearInterval(myVar);
+                        x = 1;
+                    }
+                }catch(e){}
+            }
+        }, 1000);
+    `,
+					}}
+				/>
+
+				<Script
+					id="click-tracker"
+					strategy="afterInteractive"
+					dangerouslySetInnerHTML={{
+						__html: `
+        window.addEventListener('load', function() {
+            document.addEventListener('click', function(e) {
+                if (e.target.closest('[class="flex justify-center items-center p-3 bg-black/80 rounded-full shadow-2xl"]')) {
+                    gtag('event', 'conversion', {'send_to': 'AW-16849802062/wMmICIXZ650aEM6mzuI-'});
+                }
+            }, {
+                capture: true
+            });
+        });
+    `,
+					}}
+				/>
+
+				<Script
+					id="page-conversion"
+					strategy="afterInteractive"
+					dangerouslySetInnerHTML={{
+						__html: `
+        gtag('event', 'conversion', {'send_to': 'AW-16849802062/M89BCIvZ650aEM6mzuI-'});
+    `,
+					}}
+				/>
 			</body>
 		</html>
 	);
