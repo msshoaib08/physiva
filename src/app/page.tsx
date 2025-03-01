@@ -12,7 +12,7 @@ import PricingPage from '@/pages/pricing.page';
 import RequestCallback from '@/components/req-callback.component';
 import ModalPopup from '@/components/modal-popup.component';
 
-const page: React.FC = () => {
+const Page: React.FC = () => {
 	const [isModalOpen, setIsModalOpen] = useState(false);
 
 	useEffect(() => {
@@ -33,4 +33,4 @@ const page: React.FC = () => {
 	);
 };
 
-export default page;
+export default Page;
