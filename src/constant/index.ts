@@ -32,35 +32,81 @@ export const CORE_FEATURES = [
 export const TREATMENT = [
 	{
 		title: 'Muscle and Joint Pain',
-		description: 'Relieve pain and improve mobility for muscles and joints.',
+		description: [
+			'Sprains & Strains',
+			'Arthritis Care',
+			'Tendonitis Therapy',
+			'Fracture Rehab',
+			'Frozen Shoulder',
+			'Joint Mobilization',
+		],
 		image: 'url(/assets/treatment-img1.jpg)',
+		icon: '/assets/treatment-img1.jpg',
 	},
 	{
-		title: 'Post-Surgical Rehabilitation',
-		description:
-			'Recover strength and function after surgery with expert care.',
+		title: 'Post-Surgical Rehab',
+		description: [
+			'Knee Replacement',
+			'Spinal Surgery',
+			'Shoulder Repair',
+			'Amputation Rehab',
+			'ACL Recovery',
+			'Scar Management',
+		],
 		image: 'url(/assets/treatment-img2.jpg)',
+		icon: '/assets/treatment-img2.jpg',
 	},
 	{
 		title: 'Back and Neck Pain',
-		description:
-			'Ease discomfort and regain flexibility in your back and neck.',
+		description: [
+			'Herniated Disc',
+			'Postural Correction',
+			'Cervical Pain',
+			'Lower Back Pain',
+			'Whiplash Injury',
+			'Spinal Alignment',
+		],
 		image: 'url(/assets/treatment-img3.jpg)',
+		icon: '/assets/treatment-img3.jpg',
 	},
-
 	{
 		title: 'Neurological Conditions',
-		description: 'Enhance mobility and coordination for neurological recovery.',
+		description: [
+			'Parkinson’s Care',
+			'Paralysis Rehab',
+			'Nerve Damage',
+			'Stroke Recovery',
+			'Neuropathy Relief',
+			'MS & Dystrophy',
+		],
 		image: 'url(/assets/treatment-img5.jpg)',
+		icon: '/assets/treatment-img5.jpg',
 	},
 	{
-		title: 'Geriatric Care ',
-		description: 'Support active aging with personalized physiotherapy care.',
+		title: 'Geriatric Care',
+		description: [
+			'Fall Prevention',
+			'Osteoporosis Care',
+			'Post-Hospital Rehab',
+			'Mobility Training',
+			'Arthritis Relief',
+			'Dementia Support',
+		],
 		image: 'url(/assets/treatment-img6.jpg)',
+		icon: '/assets/treatment-img6.jpg',
 	},
 	{
 		title: 'And Many More ++',
+		description: [
+			'Sports Injuries',
+			'Workplace Injury',
+			'Chronic Pain',
+			'Pediatric Therapy',
+			'Postural Correction',
+			'Breathing Therapy',
+		],
 		image: 'url(/assets/treatment-img4.jpg)',
+		icon: '/assets/treatment-img4.jpg',
 	},
 ];
 

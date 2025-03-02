@@ -3,11 +3,12 @@
 import CallToAction from '@/components/cta.component';
 import { TREATMENT } from '@/constant';
 import Head from 'next/head';
+import Image from 'next/image';
 
 const TreatmentPage: React.FC = () => {
-	const handleClick = () => {
-		window.location.href = 'tel:+918887776668';
-	};
+	// const handleClick = () => {
+	// 	window.location.href = 'tel:+918887776668';
+	// };
 
 	return (
 		<>
@@ -77,20 +78,38 @@ const TreatmentPage: React.FC = () => {
 					</div>
 
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
-						{TREATMENT.map(({ title, description, image }, idx) => (
+						{TREATMENT.map(({ title, description, image, icon }, idx) => (
 							<div
 								key={idx}
-								className="relative w-full h-44 rounded-2xl flex justify-center items-center"
+								className="relative w-full h-64 rounded-2xl flex justify-center items-center"
 								style={{
 									backgroundImage: image,
 									backgroundSize: 'cover',
 									backgroundPosition: 'center',
 								}}
 							>
-								<div className="glassmorphism w-full absolute top-0 right-0 h-full rounded-2xl rounded-s-none shadow-none flex flex-col justify-center items-center">
-									<span className="px-4 font-bold text-lg">{title}</span>
-									<span className="mt-2 px-3 font-medium">{description}</span>
-									{idx === TREATMENT.length - 1 && (
+								<div className="glassmorphism w-full absolute top-0 right-0 h-full py-4 px-8 rounded-2xl flex flex-col justify-center items-start">
+									<div className="flex items-center gap-3">
+										<Image
+											src={icon}
+											width={50}
+											height={50}
+											alt={`${title} icon`}
+											className="rounded-3xl"
+										/>
+
+										<span className="font-bold text-xl">{title}</span>
+									</div>
+									<ul className="mt-4 list-none text-start ms-4">
+										{description.map((point, index) => (
+											<div key={index} className="flex items-center gap-3">
+												<div className="w-2 h-2 rounded-full bg-heading" />
+												<li className="font-semibold">{point}</li>
+											</div>
+										))}
+									</ul>
+
+									{/* {idx === TREATMENT.length - 1 && (
 										<button
 											onClick={handleClick}
 											className="mt-5 w-fit py-3 px-5 flex items-center gap-2 bg-heading/10 rounded-full transition-all duration-300 ease-in-out hover:shadow-xl"
@@ -102,7 +121,7 @@ const TreatmentPage: React.FC = () => {
 											/>
 											<span className="font-heading font-medium">Call Now</span>
 										</button>
-									)}
+									)} */}
 								</div>
 							</div>
 						))}

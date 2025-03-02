@@ -111,10 +111,8 @@
 
 	.glassmorphism {
 		background: rgba(255, 255, 255, 0.25);
-		box-shadow: 0 8px 32px 0 rgba(13, 131, 253, 0.3);
-		backdrop-filter: blur(4px);
+		backdrop-filter: blur(8px);
 		-webkit-backdrop-filter: blur(4px);
-		border-radius: 10px;
 		border: 1px solid rgba(255, 255, 255, 0.18);
 	}
 
@@ -122,7 +120,7 @@
 	.swiper-pagination-bullets.swiper-pagination-horizontal {
 		margin-top: 100px;
 	}
-  :root {
+	:root {
 		--background: 0 0% 100%;
 		--foreground: 240 10% 3.9%;
 		--card: 0 0% 100%;
@@ -149,7 +147,7 @@
 		--chart-5: 27 87% 67%;
 		--radius: 0.5rem;
 	}
-  .dark {
+	.dark {
 		--background: 240 10% 3.9%;
 		--foreground: 0 0% 98%;
 		--card: 240 10% 3.9%;
@@ -174,14 +172,5 @@
 		--chart-3: 30 80% 55%;
 		--chart-4: 280 65% 60%;
 		--chart-5: 340 75% 55%;
-	}
-}
-
-@layer base {
-  * {
-    @apply border-border;
-	}
-  body {
-    @apply bg-background text-foreground;
 	}
 }

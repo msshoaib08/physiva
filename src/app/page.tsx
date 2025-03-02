@@ -16,7 +16,9 @@ const Page: React.FC = () => {
 	const [isModalOpen, setIsModalOpen] = useState(false);
 
 	useEffect(() => {
-		setIsModalOpen(true);
+		const timer = setTimeout(() => {
+			setIsModalOpen(true);
+		}, 5000);
 	}, []);
 	return (
 		<>

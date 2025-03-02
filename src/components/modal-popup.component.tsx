@@ -1,8 +1,8 @@
-import { useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { IoCallOutline } from 'react-icons/io5';
+import { IoCallOutline, IoClose } from 'react-icons/io5';
 import { FaWhatsapp } from 'react-icons/fa';
 import Image from 'next/image';
+import { useEffect } from 'react';
 
 export interface ModalProps {
 	isOpen: boolean;
@@ -12,12 +12,15 @@ export interface ModalProps {
 const ModalPopup: React.FC<ModalProps> = ({ isOpen, onClose }) => {
 	useEffect(() => {
 		if (isOpen) {
-			const timer = setTimeout(() => {
-				onClose();
-			}, 5000);
-			return () => clearTimeout(timer);
+			document.body.style.overflow = 'hidden';
+		} else {
+			document.body.style.overflow = '';
 		}
-	}, [isOpen, onClose]);
+
+		return () => {
+			document.body.style.overflow = '';
+		};
+	}, [isOpen]);
 
 	const handleOutsideClick = (e: React.MouseEvent) => {
 		if (e.target === e.currentTarget) {
@@ -57,12 +60,18 @@ const ModalPopup: React.FC<ModalProps> = ({ isOpen, onClose }) => {
 					onClick={handleOutsideClick}
 				>
 					<motion.div
-						className="bg-white p-6 rounded-lg max-w-md w-full mx-4 sm:mx-auto"
+						className="relative bg-white p-6 rounded-lg max-w-md w-full mx-4 sm:mx-auto"
 						variants={modalVariants}
 						initial="hidden"
 						animate="visible"
 						exit="exit"
 					>
+						<button
+							onClick={onClose}
+							className="absolute top-3 right-3 text-white z-50 bg-blue w-8 h-8 rounded-full flex justify-center items-center"
+						>
+							<IoClose size={20} />
+						</button>
 						<div className="flex flex-col lg:text-start">
 							<h1 className="text-[32px] font-semibold font-heading mb-4 leading-tight capitalize">
 								Start Your <span className="text-blue">Pain-Free</span> Journey
