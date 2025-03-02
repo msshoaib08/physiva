@@ -19,6 +19,8 @@ const Page: React.FC = () => {
 		const timer = setTimeout(() => {
 			setIsModalOpen(true);
 		}, 5000);
+
+		return () => clearTimeout(timer);
 	}, []);
 	return (
 		<>
