@@ -1,6 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { IoCallOutline, IoClose } from 'react-icons/io5';
-import { FaWhatsapp } from 'react-icons/fa';
+import { IoCallOutline } from 'react-icons/io5';
+// import { FaWhatsapp } from 'react-icons/fa';
 import Image from 'next/image';
 import { useEffect } from 'react';
 
@@ -32,12 +32,12 @@ const ModalPopup: React.FC<ModalProps> = ({ isOpen, onClose }) => {
 		window.location.href = 'tel:9137372515';
 	};
 
-	const handleClickWhatsApp = () => {
-		const phoneNumber = '9137372515';
-		const whatsappUrl = `https://wa.me/${phoneNumber}`;
+	// const handleClickWhatsApp = () => {
+	// 	const phoneNumber = '9137372515';
+	// 	const whatsappUrl = `https://wa.me/${phoneNumber}`;
 
-		window.location.href = whatsappUrl;
-	};
+	// 	window.location.href = whatsappUrl;
+	// };
 
 	const modalVariants = {
 		hidden: { opacity: 0, scale: 0.9 },
@@ -66,48 +66,41 @@ const ModalPopup: React.FC<ModalProps> = ({ isOpen, onClose }) => {
 						animate="visible"
 						exit="exit"
 					>
-						<button
-							onClick={onClose}
-							className="absolute top-3 right-3 text-white z-50 bg-blue w-8 h-8 rounded-full flex justify-center items-center"
-						>
-							<IoClose size={20} />
-						</button>
 						<div className="flex flex-col lg:text-start">
 							<h1 className="text-[32px] font-semibold font-heading mb-4 leading-tight capitalize">
 								Start Your <span className="text-blue">Pain-Free</span> Journey
 								Today!
 							</h1>
 							<p className="mb-6">
-								Get expert care from India&apos;s top physiotherapists at home.
-								Affordable, effective, and trusted by thousands for a healthier
-								life.
+								Click to inquire now or book a physiotherapy session with
+								Physiva, and get a qualified physiotherapist at your location
+								within 3 hours.
 							</p>
 
 							<Image
 								src="/assets/modal-image.jpg"
-								width={100}
+								width={250}
 								height={100}
 								alt="physiotherapy image"
-								className="w-full h-[220px] mx-auto rounded-[10px] object-cover object-center"
+								className="mx-auto rounded-[10px] object-cover object-center"
 							/>
 
 							<div className="flex items-center justify-center flex-col gap-4 mt-6">
-								<p>Click to Schedule Your Session Now</p>
-								<div className="flex gap-6 items-center">
+								<p>Click to inquire now / Schedule Your Session </p>
+								<div className="flex flex-col gap-3 items-center w-full">
 									<button
 										onClick={handleClickCall}
-										className="flex justify-center items-center gap-2 bg-blue hover:bg-blue/70 text-white font-medium py-3 px-6 rounded-2xl font-heading transition duration-300 ease-in-out cursor-pointer"
+										className="flex justify-center w-full items-center gap-2 bg-blue hover:bg-blue/70 text-white font-medium py-3 px-6 rounded-2xl font-heading transition duration-300 ease-in-out cursor-pointer"
 									>
 										<IoCallOutline size={24} />
-										Call Us
+										Call us now
 									</button>
 
 									<button
-										onClick={handleClickWhatsApp}
-										className="flex justify-center items-center gap-2 border border-light-blue text-body font-medium py-3 px-6 rounded-2xl font-heading transition duration-300 ease-in-out  hover:bg-blue hover:text-white hover:border-nonecursor-pointer"
+										onClick={onClose}
+										className="flex justify-center w-full items-center gap-2 border border-light-blue text-body font-medium py-3 px-6 rounded-2xl font-heading transition duration-300 ease-in-out hover:bg-slate-100 hover:text-heading cursor-pointer"
 									>
-										<FaWhatsapp size={24} />
-										Chat Now
+										<span>Cancel</span>
 									</button>
 								</div>
 							</div>
