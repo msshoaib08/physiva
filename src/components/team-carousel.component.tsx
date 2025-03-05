@@ -1,11 +1,9 @@
 import { DOCTOTORS_TEAM } from '@/constant';
 import Image from 'next/image';
-import Marquee from 'react-fast-marquee';
 
-const TeamsCarousel = () => {
-	const marqueeSpeed = 20;
+const DoctorTeam = () => {
 	return (
-		<Marquee speed={marqueeSpeed} className="mt-10">
+		<div className="mt-10 grid place-items-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
 			{DOCTOTORS_TEAM.map(({ img, name, experience, speciality }, idx) => (
 				<div key={idx} className="flex ps-5">
 					<div className="relative rounded-xl overflow-hidden">
@@ -27,8 +25,8 @@ const TeamsCarousel = () => {
 					</div>
 				</div>
 			))}
-		</Marquee>
+		</div>
 	);
 };
 
-export default TeamsCarousel;
+export default DoctorTeam;

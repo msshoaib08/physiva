@@ -1,6 +1,6 @@
 'use client';
 
-import TeamsCarousel from '@/components/team-carousel.component';
+import DoctorTeam from '@/components/team-carousel.component';
 import {
 	AlertDialog,
 	AlertDialogAction,
@@ -99,7 +99,7 @@ const ContactPage: React.FC = () => {
 						</h2>
 					</div>
 				</div>
-				<TeamsCarousel />
+				<DoctorTeam />
 
 				<div className="max-w-7xl px-5 md:px-10 mx-auto w-full">
 					<div className="mt-16 w-full lg:max-w-[70%] lg:mx-auto flex flex-col justify-center items-center gap-5">

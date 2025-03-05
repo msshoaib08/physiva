@@ -201,28 +201,16 @@ export const TESTIMONIALS = [
 
 export const DOCTOTORS_TEAM = [
 	{
-		img: '/assets/doctors-image/khusboo-jainam.jpeg',
-		name: 'Khusboo Jainam',
-		experience: '5+',
-		speciality: 'Musculo | Neuro | Cardio | Sports',
-	},
-	{
 		img: '/assets/doctors-image/maitri-shah.jpeg',
 		name: 'Maitri Shah',
 		experience: '7+',
 		speciality: 'Cardio | Neuro | Musculo | Sports',
 	},
 	{
-		img: '/assets/doctors-image/yukta-sable.jpeg',
-		name: 'Yukta Sable',
-		experience: '3+',
-		speciality: 'Cardio | Neuro | Musculo | Sports',
-	},
-	{
-		img: '/assets/doctors-image/luqmaan.jpeg',
-		name: 'Luqmaan',
-		experience: '2+',
-		speciality: 'Cardio | Neuro | Musculo | Sports',
+		img: '/assets/doctors-image/khusboo-jainam.jpeg',
+		name: 'Khusboo Jainam',
+		experience: '5+',
+		speciality: 'Musculo | Neuro | Cardio | Sports',
 	},
 	{
 		img: '/assets/doctors-image/omkar-motta.jpeg',
@@ -230,10 +218,22 @@ export const DOCTOTORS_TEAM = [
 		experience: '5+',
 		speciality: 'Cardio | Neuro | Musculo | Sports',
 	},
-	{
-		img: '/assets/doctors-image/sohrab.jpeg',
-		name: 'Adnan',
-		experience: '4+',
-		speciality: 'Cardio | Neuro | Musculo | Sports',
-	},
+	// {
+	// 	img: '/assets/doctors-image/yukta-sable.jpeg',
+	// 	name: 'Yukta Sable',
+	// 	experience: '3+',
+	// 	speciality: 'Cardio | Neuro | Musculo | Sports',
+	// },
+	// {
+	// 	img: '/assets/doctors-image/luqmaan.jpeg',
+	// 	name: 'Luqmaan',
+	// 	experience: '2+',
+	// 	speciality: 'Cardio | Neuro | Musculo | Sports',
+	// },
+	// {
+	// 	img: '/assets/doctors-image/sohrab.jpeg',
+	// 	name: 'Adnan',
+	// 	experience: '4+',
+	// 	speciality: 'Cardio | Neuro | Musculo | Sports',
+	// },
 ];

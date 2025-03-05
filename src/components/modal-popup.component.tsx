@@ -32,13 +32,6 @@ const ModalPopup: React.FC<ModalProps> = ({ isOpen, onClose }) => {
 		window.location.href = 'tel:9137372515';
 	};
 
-	// const handleClickWhatsApp = () => {
-	// 	const phoneNumber = '9137372515';
-	// 	const whatsappUrl = `https://wa.me/${phoneNumber}`;
-
-	// 	window.location.href = whatsappUrl;
-	// };
-
 	const modalVariants = {
 		hidden: { opacity: 0, scale: 0.9 },
 		visible: {
@@ -74,7 +67,7 @@ const ModalPopup: React.FC<ModalProps> = ({ isOpen, onClose }) => {
 							<p className="mb-6">
 								Click to inquire now or book a physiotherapy session with
 								Physiva, and get a qualified physiotherapist at your location
-								within 3 hours.
+								<span className="text-blue font-bold"> within 3 hours</span>.
 							</p>
 
 							<Image

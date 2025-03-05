@@ -1,5 +1,5 @@
 import CallToAction from '@/components/cta.component';
-import { DOCTOTORS_TEAM } from '@/constant';
+import DoctorTeam from '@/components/team-carousel.component';
 import Image from 'next/image';
 
 const AboutPage = () => {
@@ -76,30 +76,7 @@ const AboutPage = () => {
 									Committed to Your Healing
 								</h2>
 							</div>
-							<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 place-items-center gap-8">
-								{DOCTOTORS_TEAM.map(({ img, name }, idx) => (
-									<div
-										className="relative flex justify-center items-center flex-col gap-3"
-										key={idx}
-									>
-										<div className="relative">
-											<Image
-												src={img}
-												width={100}
-												height={100}
-												className="w-[100px] h-[100px] object-cover object-top rounded-full"
-												alt={`${name}'s profile image`}
-											/>
-											<div className="absolute inset-0 bg-black/30 rounded-full"></div>
-										</div>
-										<div className="flex justify-center items-center">
-											<span className="font-bold text-sm select-none">
-												{`Dr. ${name}`}
-											</span>
-										</div>
-									</div>
-								))}
-							</div>
+							<DoctorTeam />
 						</div>
 					</div>
 					<CallToAction />
