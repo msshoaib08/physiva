@@ -28,7 +28,8 @@ const ContactPage: React.FC = () => {
 			toast.error('Please check the box to confirm you have read the terms.');
 			return;
 		}
-		window.open('https://forms.gle/PgVNFk3LtaSsvv9j9', '_blank');
+		// window.open('https://forms.gle/PgVNFk3LtaSsvv9j9', '_blank');
+		window.open('https://app.youform.com/forms/knwwgcok', '_blank');
 	};
 
 	return (
